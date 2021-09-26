@@ -15,6 +15,109 @@
 
   <body>
     <div class="wrapper">
+      <div class="popup-menu">
+        <div class="popup-menu__top">
+          <a class="logo-link" href="#">
+            <img class="logo-img" src="images/logo.svg" alt="logo" />
+          </a>
+          <button class="popup-menu__close-btn">
+            <img
+              class="popup-menu__close-btn__image"
+              src="images/icons/cross.svg"
+              alt="close"
+            />
+          </button>
+        </div>
+        <div class="popup-menu__content">
+          <div class="popup-menu__block">
+            <form class="popup-menu__form">
+              <input
+                class="popup-menu__input"
+                type="text"
+                placeholder="Что ищём?"
+              />
+              <a class="popup-menu__search-link" href="#">
+                <img
+                  class="popup-menu__search-img"
+                  src="images/icons/search.svg"
+                  alt="search"
+                />
+              </a>
+            </form>
+          </div>
+
+          <div class="popup-menu__block">
+            <nav class="popup-menu__nav">
+              <ul class="popup-menu__nav-list">
+                <li class="popup-menu__nav-item">
+                  <a class="popup-menu__nav-item__link" href="catalog.html">
+                    Каталог
+                  </a>
+                </li>
+                <li class="popup-menu__nav-item">
+                  <a class="popup-menu__nav-item__link" href="catalog.html">
+                    Лекарства
+                  </a>
+                </li>
+                <li class="popup-menu__nav-item">
+                  <a class="popup-menu__nav-item__link" href="catalog.html">
+                    Косметика
+                  </a>
+                </li>
+                <li class="popup-menu__nav-item">
+                  <a class="popup-menu__nav-item__link" href="catalog.html">
+                    Витамины
+                  </a>
+                </li>
+                <li class="popup-menu__nav-item">
+                  <a class="popup-menu__nav-item__link" href="catalog.html">
+                    Другие продукты
+                  </a>
+                </li>
+                <li class="popup-menu__nav-item">
+                  <a class="popup-menu__nav-item__link" href="about.html">
+                    О нас
+                  </a>
+                </li>
+                <li class="popup-menu__nav-item">
+                  <a class="popup-menu__nav-item__link" href="news.html">
+                    Новости и акции
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+          <div class="popup-menu__user-nav">
+            <a class="popup-menu__authorization-link" href="#">
+              <img
+                class="popup-menu__authorziation-img"
+                src="images/icons/user.svg"
+                alt="user"
+              />
+              <p class="popup-menu__authorization-text">Войти</p>
+            </a>
+            <div class="popup-menu__items-wrapper">
+              <a class="popup-menu__basket-link popup-menu__item-link" href="#">
+                <img
+                  class="popup-menu__basket-img popup-menu__item-img"
+                  src="images/icons/basket-black.svg"
+                  alt="basket"
+                />
+                <p class="basket__num popup-menu__item-num">0</p>
+              </a>
+              <a class="popup-menu__likes-link popup-menu__item-link" href="#">
+                <img
+                  class="popup-menu__likes-img popup-menu__item-img"
+                  src="images/icons/like-black.svg"
+                  alt="like"
+                />
+                <p class="likes__num popup-menu__item-num">0</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
       <header class="header">
         <div class="header__top">
           <div class="container">
@@ -62,6 +165,12 @@
               </div>
 
               <a class="header__top__user-nav-link" href="#"> Войти </a>
+
+              <button class="open-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+              </button>
             </div>
           </div>
         </div>
@@ -69,6 +178,11 @@
           <div class="container">
             <nav class="main-nav">
               <ul class="main-nav__list">
+                <li class="main-nav__item">
+                  <a class="main-nav__item-link" href="catalog.html">
+                    Каталог
+                  </a>
+                </li>
                 <li class="main-nav__item">
                   <a class="main-nav__item-link" href="catalog.html">
                     Лекарства
