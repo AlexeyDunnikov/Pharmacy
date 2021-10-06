@@ -15,7 +15,7 @@
 
   <body>
     <div class="wrapper">
-      <div class="popup-menu">
+     <div class="popup-menu">
         <div class="popup-menu__top">
           <a class="logo-link" href="#">
             <img class="logo-img" src="images/logo.svg" alt="logo" />
@@ -89,7 +89,7 @@
           </div>
 
           <div class="popup-menu__user-nav">
-            <a class="popup-menu__authorization-link" href="#">
+            <a class="popup-menu__authorization-link open__authorization-form-btn" href="#">
               <img
                 class="popup-menu__authorziation-img"
                 src="images/icons/user.svg"
@@ -164,7 +164,7 @@
                 </a>
               </div>
 
-              <a class="header__top__user-nav-link" href="#"> Войти </a>
+              <a class="header__top__user-nav-link open__authorization-form-btn" href="#"> Войти </a>
 
               <button class="open-menu-btn">
                 <span></span>
@@ -296,6 +296,44 @@
           </div>
         </div>
       </footer>
+      <div class="authorization-popup">
+        <div class="authorization-popup__wrapper">
+          <div class="authorization-popup__body">
+            <div class="authorization-popup__top">
+              <h3 class="authorization-popup__title">
+                Вход в аккаунт
+              </h3>
+              <a class="authorization-popup__close" href="#">
+                <img class="authorization-popup__close-img" src="images/icons/cross-black.svg" alt="close" >
+              </a>
+            </div>
+            <form class="authorization-popup__form">
+              <label class="authorization-popup__label">
+                <span class="authorization-popup__label-text">
+                  Электронная почта
+                </span>
+                <input class="authorization-popup__input" type="text" />
+              </label>
+              <label class="authorization-popup__label">
+                <span class="authorization-popup__label-text"> Пароль </span>
+                <input class="authorization-popup__input" type="text" />
+              </label>
+              <button 
+                class="authorization-popup__btn authorization-popup__enter-btn"
+                type="submit"
+              >
+                Войти
+              </button>
+              <a
+                class="authorization-popup__btn authorization-popup__reg-btn"
+                href="#"
+              >
+                Регистрация
+              </a>
+            </form>
+          </div>
+        </div>
+      </div>
     </div>
 
     <script src="js/main.min.js"></script>

@@ -1,0 +1,3789 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Каталог</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="popup-menu">
+        <div class="popup-menu__top">
+          <a class="logo-link" href="#">
+            <img class="logo-img" src="images/logo.svg" alt="logo" />
+          </a>
+          <button class="popup-menu__close-btn">
+            <img
+              class="popup-menu__close-btn__image"
+              src="images/icons/cross.svg"
+              alt="close"
+            />
+          </button>
+        </div>
+        <div class="popup-menu__content">
+          <div class="popup-menu__block">
+            <form class="popup-menu__form">
+              <input
+                class="popup-menu__input"
+                type="text"
+                placeholder="Что ищём?"
+              />
+              <a class="popup-menu__search-link" href="#">
+                <img
+                  class="popup-menu__search-img"
+                  src="images/icons/search.svg"
+                  alt="search"
+                />
+              </a>
+            </form>
+          </div>
+
+          <div class="popup-menu__block">
+            <nav class="popup-menu__nav">
+              <ul class="popup-menu__nav-list">
+                <li class="popup-menu__nav-item">
+                  <a class="popup-menu__nav-item__link" href="catalog.html">
+                    Каталог
+                  </a>
+                </li>
+                <li class="popup-menu__nav-item">
+                  <a class="popup-menu__nav-item__link" href="catalog.html">
+                    Лекарства
+                  </a>
+                </li>
+                <li class="popup-menu__nav-item">
+                  <a class="popup-menu__nav-item__link" href="catalog.html">
+                    Косметика
+                  </a>
+                </li>
+                <li class="popup-menu__nav-item">
+                  <a class="popup-menu__nav-item__link" href="catalog.html">
+                    Витамины
+                  </a>
+                </li>
+                <li class="popup-menu__nav-item">
+                  <a class="popup-menu__nav-item__link" href="catalog.html">
+                    Другие продукты
+                  </a>
+                </li>
+                <li class="popup-menu__nav-item">
+                  <a class="popup-menu__nav-item__link" href="about.html">
+                    О нас
+                  </a>
+                </li>
+                <li class="popup-menu__nav-item">
+                  <a class="popup-menu__nav-item__link" href="news.html">
+                    Новости и акции
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+          <div class="popup-menu__user-nav">
+            <a
+              class="
+                popup-menu__authorization-link
+                open__authorization-form-btn
+              "
+              href="#"
+            >
+              <img
+                class="popup-menu__authorziation-img"
+                src="images/icons/user.svg"
+                alt="user"
+              />
+              <p class="popup-menu__authorization-text">Войти</p>
+            </a>
+            <div class="popup-menu__items-wrapper">
+              <a class="popup-menu__basket-link popup-menu__item-link" href="#">
+                <img
+                  class="popup-menu__basket-img popup-menu__item-img"
+                  src="images/icons/basket-black.svg"
+                  alt="basket"
+                />
+                <p class="basket__num popup-menu__item-num">0</p>
+              </a>
+              <a class="popup-menu__likes-link popup-menu__item-link" href="#">
+                <img
+                  class="popup-menu__likes-img popup-menu__item-img"
+                  src="images/icons/like-black.svg"
+                  alt="like"
+                />
+                <p class="likes__num popup-menu__item-num">0</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <header class="header">
+        <div class="header__top">
+          <div class="container">
+            <div class="header__top-inner">
+              <a class="logo-link" href="index.html">
+                <img class="logo" src="images/logo.svg" alt="logo" />
+              </a>
+              <form class="header__top-form" action="">
+                <input
+                  class="header__top-input"
+                  type="text"
+                  placeholder="Что ищем?"
+                />
+                <a class="header__top-form__search-link" href="#">
+                  <img
+                    class="header__top-form__search-img"
+                    src="images/icons/search.svg"
+                    alt="search"
+                  />
+                </a>
+              </form>
+              <div class="header__top__items-wrapper">
+                <a
+                  class="header__top__basket-link header__top__item-link"
+                  href="#"
+                >
+                  <img
+                    class="header__top__basket-img header__top__item-img"
+                    src="images/icons/basket.svg"
+                    alt="basket"
+                  />
+                  <p class="basket__num header__top__item-num">0</p>
+                </a>
+                <a
+                  class="header__top__likes-link header__top__item-link"
+                  href="#"
+                >
+                  <img
+                    class="header__top__likes-img header__top__item-img"
+                    src="images/icons/like.svg"
+                    alt="like"
+                  />
+                  <p class="likes__num header__top__item-num">0</p>
+                </a>
+              </div>
+
+              <a
+                class="header__top__user-nav-link open__authorization-form-btn"
+                href="#"
+              >
+                Войти
+              </a>
+
+              <button class="open-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="header__bottom">
+          <div class="container">
+            <nav class="main-nav">
+              <ul class="main-nav__list">
+                <li class="main-nav__item">
+                  <a class="main-nav__item-link" href="catalog.html">
+                    Каталог
+                  </a>
+                </li>
+                <li class="main-nav__item">
+                  <a class="main-nav__item-link" href="catalog.html">
+                    Лекарства
+                  </a>
+                </li>
+                <li class="main-nav__item">
+                  <a class="main-nav__item-link" href="catalog.html">
+                    Косметика
+                  </a>
+                </li>
+                <li class="main-nav__item">
+                  <a class="main-nav__item-link" href="catalog.html">
+                    Витамины
+                  </a>
+                </li>
+                <li class="main-nav__item main-nav__item-dropdown">
+                  <a class="main-nav__item-link" href="catalog.html">
+                    Другие продукты
+                  </a>
+                  <svg
+                    class="main-nav__item-img"
+                    width="12"
+                    height="8"
+                    viewBox="0 0 12 8"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M10.6 0L6 4.6L1.4 0L0 1.4L6 7.4L12 1.4L10.6 0Z"
+                      fill="#C4C4C4"
+                    />
+                  </svg>
+
+                  <ul class="main-nav__dropdown-list">
+                    <li class="main-nav__dropdown-item">
+                      <a class="main-nav__dropdown-link" href="catalog.html">
+                        Мама и малыш
+                      </a>
+                    </li>
+                    <li class="main-nav__dropdown-item">
+                      <a class="main-nav__dropdown-link" href="catalog.html">
+                        Мед. техника
+                      </a>
+                    </li>
+                    <li class="main-nav__dropdown-item">
+                      <a class="main-nav__dropdown-link" href="catalog.html">
+                        Оптика
+                      </a>
+                    </li>
+                    <li class="main-nav__dropdown-item">
+                      <a class="main-nav__dropdown-link" href="catalog.html">
+                        Корейская косметика
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="main-nav__item">
+                  <a class="main-nav__item-link" href="about.html"> О нас </a>
+                </li>
+                <li class="main-nav__item">
+                  <a class="main-nav__item-link" href="news.html">
+                    Новости и акции
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <section class="breadcrumbs">
+          <div class="breadcrumbs-wrapper">
+            <div class="container">
+              <div class="breadcrumbs__inner">
+                <h1 class="breadcrumbs__title">Каталог</h1>
+                <ul class="breadcrumbs__list">
+                  <li class="breadcrumbs__item">
+                    <a href="index.html" class="breadcrumbs__item-link">
+                      Главная
+                    </a>
+                  </li>
+                  <li class="breadcrumbs__item">
+                    <a href="index.html" class="breadcrumbs__item-link">
+                      Каталог
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="catalog page-section">
+          <div class="container">
+            <div class="catalog__inner">
+              <div class="catalog__top">
+                <ul class="catalog__top-list">
+                  <li class="catalog__top-item">
+                    <a class="catalog__top-item__link" href="#">По рецепту</a>
+                  </li>
+                  <li class="catalog__top-item">
+                    <a class="catalog__top-item__link" href="#">Без рецепта</a>
+                  </li>
+                  <li class="catalog__top-item">
+                    <a class="catalog__top-item__link" href="#">На акции</a>
+                  </li>
+                </ul>
+
+                <ul class="catalog__top__display-list">
+                  <li class="catalog__top__display-item">
+                    <button
+                      class="
+                        catalog__top__display-btn
+                        catalog__top__display-btn--active
+                      "
+                      data-display="grid"
+                    >
+                      <svg
+                        class="catalog__top__display-img"
+                        width="23"
+                        height="21"
+                        viewBox="0 0 23 21"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g opacity="0.3">
+                          <rect
+                            x="1"
+                            y="1"
+                            width="21"
+                            height="19"
+                            stroke="#2F3035"
+                            stroke-width="2"
+                          />
+                          <rect
+                            x="7"
+                            y="6"
+                            width="2"
+                            height="2"
+                            fill="#2F3035"
+                            stroke="#2F3035"
+                            stroke-width="2"
+                          />
+                          <rect
+                            x="7"
+                            y="13"
+                            width="2"
+                            height="2"
+                            fill="#2F3035"
+                            stroke="#2F3035"
+                            stroke-width="2"
+                          />
+                          <rect
+                            x="14"
+                            y="6"
+                            width="2"
+                            height="2"
+                            fill="#2F3035"
+                            stroke="#2F3035"
+                            stroke-width="2"
+                          />
+                          <rect
+                            x="14"
+                            y="13"
+                            width="2"
+                            height="2"
+                            fill="#2F3035"
+                            stroke="#2F3035"
+                            stroke-width="2"
+                          />
+                        </g>
+                      </svg>
+                    </button>
+                  </li>
+                  <li class="catalog__top__display-item">
+                    <button
+                      class="catalog__top__display-btn"
+                      data-display="rows"
+                    >
+                      <svg
+                        class="catalog__top__display-img"
+                        w
+                        width="25"
+                        height="19"
+                        viewBox="0 0 25 19"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g opacity="0.3">
+                          <rect
+                            x="6"
+                            width="19"
+                            height="3"
+                            rx="1.5"
+                            fill="#2F3035"
+                          />
+                          <rect
+                            x="6"
+                            y="8"
+                            width="19"
+                            height="3"
+                            rx="1.5"
+                            fill="#2F3035"
+                          />
+                          <rect
+                            x="6"
+                            y="16"
+                            width="19"
+                            height="3"
+                            rx="1.5"
+                            fill="#2F3035"
+                          />
+                          <rect width="3" height="3" rx="1.5" fill="#2F3035" />
+                          <rect
+                            y="8"
+                            width="3"
+                            height="3"
+                            rx="1.5"
+                            fill="#2F3035"
+                          />
+                          <rect
+                            y="16"
+                            width="3"
+                            height="3"
+                            rx="1.5"
+                            fill="#2F3035"
+                          />
+                        </g>
+                      </svg>
+                    </button>
+                  </li>
+                </ul>
+
+                <button class="catalog__top-filter">
+                  <img src="images/icons/filter.svg" alt="filter" class="catalog__top-filter__img">
+                </button>
+              </div>
+              <div class="catalog__tabs-wrapper tabs__wrapper">
+                <div class="catalog__tabs tabs">
+                  <a class="catalog__tab tab tab--active" href="#first-kit">
+                    Аптечка
+                  </a>
+                  <a class="catalog__tab tab" href="#vitamins"> Витамины </a>
+                  <a class="catalog__tab tab" href="#protection">
+                    Защитные средства
+                  </a>
+                  <a class="catalog__tab tab" href="#korean">
+                    Корейская косметика
+                  </a>
+                  <a class="catalog__tab tab" href="#medications">
+                    Лекарства
+                  </a>
+                  <a class="catalog__tab tab" href="#optics"> Оптика </a>
+                </div>
+                <div class="catalog__tabs-container tabs-container">
+                  <div
+                    class="
+                      catalog__tabs-content
+                      tabs-content tabs-content--active
+                    "
+                    id="first-kit"
+                  >
+                    <li class="catalog-item">
+                      <a class="catalog-item__like-link" href="#">
+                        <svg
+                          class="catalog-item__like-img"
+                          width="24"
+                          height="22"
+                          viewBox="0 0 24 22"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z"
+                            fill="#333"
+                          />
+                        </svg>
+                      </a>
+                      <img
+                        class="catalog-item__img"
+                        src="images/catalog-images/1.jpg"
+                        alt="image"
+                      />
+                      <span class="catalog-item__title"> Доктор мом </span>
+                      <span class="catalog-item__text">
+                        растительные пастилки от кашля
+                      </span>
+                      <a class="catalog-item__link" href="card.html">
+                        Посмотреть товар
+                      </a>
+                      <a class="catalog-item__basket" href="#">
+                        <span
+                          class="
+                            new__item-basket__text
+                            catalog-item__basket-text
+                          "
+                        >
+                          в корзину
+                        </span>
+                        <svg
+                          class="catalog-item__basket-img"
+                          width="30"
+                          height="23"
+                          viewBox="0 0 30 23"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M29.999 0L29.0703 2.5H26.659L22.3165 17.5H5.76777L-0.000976562 3.75H21.014L20.309 6.25H3.75902L7.43027 15H20.4653L24.7553 0H29.999ZM10.624 18.75C9.58902 18.75 8.74902 19.59 8.74902 20.625C8.74902 21.6612 9.58902 22.5 10.624 22.5C11.659 22.5 12.499 21.6612 12.499 20.625C12.499 19.59 11.659 18.75 10.624 18.75ZM19.249 10L16.874 18.75C15.839 18.75 14.999 19.5888 14.999 20.625C14.999 21.6612 15.839 22.5 16.874 22.5C17.909 22.5 18.749 21.6612 18.749 20.625C18.749 19.59 17.909 18.75 16.874 18.75L19.249 10Z"
+                            fill="#fff"
+                          />
+                        </svg>
+                      </a>
+                    </li>
+                    <li class=" catalog-item">
+                      <a
+                        class="catalog-item__like-link"
+                        href="#"
+                      >
+                        <svg
+                          class="catalog-item__like-img"
+                          width="24"
+                          height="22"
+                          viewBox="0 0 24 22"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z"
+                            fill="#333"
+                          />
+                        </svg>
+                      </a>
+                      <img
+                        class=" catalog-item__img"
+                        src="images/catalog-images/2.jpg"
+                        alt="image"
+                      />
+                      <span class="catalog-item__title">
+                        БРОНХИПРЕТ
+                      </span>
+                      <span class="catalog-item__text">
+                        (сироп фл. 100 мл №1) Bionorica SE-Германия
+                      </span>
+                      <a
+                        class=" catalog-item__link"
+                        href="card.html"
+                      >
+                        Посмотреть товар
+                      </a>
+                      <a class="catalog-item__basket" href="#">
+                        <span
+                          class="
+                            
+                            catalog-item__basket-text
+                          "
+                        >
+                          в корзину
+                        </span>
+                        <svg
+                          class="catalog-item__basket-img"
+                          width="30"
+                          height="23"
+                          viewBox="0 0 30 23"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M29.999 0L29.0703 2.5H26.659L22.3165 17.5H5.76777L-0.000976562 3.75H21.014L20.309 6.25H3.75902L7.43027 15H20.4653L24.7553 0H29.999ZM10.624 18.75C9.58902 18.75 8.74902 19.59 8.74902 20.625C8.74902 21.6612 9.58902 22.5 10.624 22.5C11.659 22.5 12.499 21.6612 12.499 20.625C12.499 19.59 11.659 18.75 10.624 18.75ZM19.249 10L16.874 18.75C15.839 18.75 14.999 19.5888 14.999 20.625C14.999 21.6612 15.839 22.5 16.874 22.5C17.909 22.5 18.749 21.6612 18.749 20.625C18.749 19.59 17.909 18.75 16.874 18.75L19.249 10Z"
+                            fill="#fff"
+                          />
+                        </svg>
+                      </a>
+                    </li>
+                    <li class=" catalog-item">
+                      <a
+                        class="catalog-item__like-link"
+                        href="#"
+                      >
+                        <svg
+                          class="catalog-item__like-img"
+                          width="24"
+                          height="22"
+                          viewBox="0 0 24 22"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z"
+                            fill="#333"
+                          />
+                        </svg>
+                      </a>
+                      <img
+                        class="catalog-item__img"
+                        src="images/catalog-images/3.jpg"
+                        alt="image"
+                      />
+                      <span class="catalog-item__title">
+                        ФЛЮДИТЕК
+                      </span>
+                      <span class="catalog-item__text">
+                        (сироп для детей 20 мг) Laboratoire Innotech
+                      </span>
+                      <a
+                        class="catalog-item__link"
+                        href="card.html"
+                      >
+                        Посмотреть товар
+                      </a>
+                      <a class="catalog-item__basket" href="#">
+                        <span
+                          class="
+                            
+                            catalog-item__basket-text
+                          "
+                        >
+                          в корзину
+                        </span>
+                        <svg
+                          class="catalog-item__basket-img"
+                          width="30"
+                          height="23"
+                          viewBox="0 0 30 23"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M29.999 0L29.0703 2.5H26.659L22.3165 17.5H5.76777L-0.000976562 3.75H21.014L20.309 6.25H3.75902L7.43027 15H20.4653L24.7553 0H29.999ZM10.624 18.75C9.58902 18.75 8.74902 19.59 8.74902 20.625C8.74902 21.6612 9.58902 22.5 10.624 22.5C11.659 22.5 12.499 21.6612 12.499 20.625C12.499 19.59 11.659 18.75 10.624 18.75ZM19.249 10L16.874 18.75C15.839 18.75 14.999 19.5888 14.999 20.625C14.999 21.6612 15.839 22.5 16.874 22.5C17.909 22.5 18.749 21.6612 18.749 20.625C18.749 19.59 17.909 18.75 16.874 18.75L19.249 10Z"
+                            fill="#fff"
+                          />
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="catalog-item">
+                      <a
+                        class=" catalog-item__like-link"
+                        href="#"
+                      >
+                        <svg
+                          class="catalog-item__like-img"
+                          width="24"
+                          height="22"
+                          viewBox="0 0 24 22"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z"
+                            fill="#333"
+                          />
+                        </svg>
+                      </a>
+                      <img
+                        class=" catalog-item__img"
+                        src="images/catalog-images/4.jpg"
+                        alt="image"
+                      />
+                      <span class="catalog-item__title">
+                        АМБРОГЕКСАЛ
+                      </span>
+                      <span class="catalog-item__text">
+                        (раствор для приема внутрь и ингаляций 7,5мг/мл фл. 50
+                      </span>
+                      <a
+                        class="catalog-item__link"
+                        href="card.html"
+                      >
+                        Посмотреть товар
+                      </a>
+                      <a class="catalog-item__basket" href="#">
+                        <span
+                          class="
+                            
+                            catalog-item__basket-text
+                          "
+                        >
+                          в корзину
+                        </span>
+                        <svg
+                          class="catalog-item__basket-img"
+                          width="30"
+                          height="23"
+                          viewBox="0 0 30 23"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M29.999 0L29.0703 2.5H26.659L22.3165 17.5H5.76777L-0.000976562 3.75H21.014L20.309 6.25H3.75902L7.43027 15H20.4653L24.7553 0H29.999ZM10.624 18.75C9.58902 18.75 8.74902 19.59 8.74902 20.625C8.74902 21.6612 9.58902 22.5 10.624 22.5C11.659 22.5 12.499 21.6612 12.499 20.625C12.499 19.59 11.659 18.75 10.624 18.75ZM19.249 10L16.874 18.75C15.839 18.75 14.999 19.5888 14.999 20.625C14.999 21.6612 15.839 22.5 16.874 22.5C17.909 22.5 18.749 21.6612 18.749 20.625C18.749 19.59 17.909 18.75 16.874 18.75L19.249 10Z"
+                            fill="#fff"
+                          />
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="catalog-item">
+                      <a class="catalog-item__like-link" href="#">
+                        <svg
+                          class="catalog-item__like-img"
+                          width="24"
+                          height="22"
+                          viewBox="0 0 24 22"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z"
+                            fill="#333"
+                          />
+                        </svg>
+                      </a>
+                      <img
+                        class="catalog-item__img"
+                        src="images/catalog-images/1.jpg"
+                        alt="image"
+                      />
+                      <span class="catalog-item__title"> Доктор мом </span>
+                      <span class="catalog-item__text">
+                        растительные пастилки от кашля
+                      </span>
+                      <a class="catalog-item__link" href="card.html">
+                        Посмотреть товар
+                      </a>
+                      <a class="catalog-item__basket" href="#">
+                        <span
+                          class="
+                            new__item-basket__text
+                            catalog-item__basket-text
+                          "
+                        >
+                          в корзину
+                        </span>
+                        <svg
+                          class="catalog-item__basket-img"
+                          width="30"
+                          height="23"
+                          viewBox="0 0 30 23"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M29.999 0L29.0703 2.5H26.659L22.3165 17.5H5.76777L-0.000976562 3.75H21.014L20.309 6.25H3.75902L7.43027 15H20.4653L24.7553 0H29.999ZM10.624 18.75C9.58902 18.75 8.74902 19.59 8.74902 20.625C8.74902 21.6612 9.58902 22.5 10.624 22.5C11.659 22.5 12.499 21.6612 12.499 20.625C12.499 19.59 11.659 18.75 10.624 18.75ZM19.249 10L16.874 18.75C15.839 18.75 14.999 19.5888 14.999 20.625C14.999 21.6612 15.839 22.5 16.874 22.5C17.909 22.5 18.749 21.6612 18.749 20.625C18.749 19.59 17.909 18.75 16.874 18.75L19.249 10Z"
+                            fill="#fff"
+                          />
+                        </svg>
+                      </a>
+                    </li>
+                    <li class=" catalog-item">
+                      <a
+                        class="catalog-item__like-link"
+                        href="#"
+                      >
+                        <svg
+                          class="catalog-item__like-img"
+                          width="24"
+                          height="22"
+                          viewBox="0 0 24 22"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z"
+                            fill="#333"
+                          />
+                        </svg>
+                      </a>
+                      <img
+                        class=" catalog-item__img"
+                        src="images/catalog-images/2.jpg"
+                        alt="image"
+                      />
+                      <span class="catalog-item__title">
+                        БРОНХИПРЕТ
+                      </span>
+                      <span class="catalog-item__text">
+                        (сироп фл. 100 мл №1) Bionorica SE-Германия
+                      </span>
+                      <a
+                        class=" catalog-item__link"
+                        href="card.html"
+                      >
+                        Посмотреть товар
+                      </a>
+                      <a class="catalog-item__basket" href="#">
+                        <span
+                          class="
+                            
+                            catalog-item__basket-text
+                          "
+                        >
+                          в корзину
+                        </span>
+                        <svg
+                          class="catalog-item__basket-img"
+                          width="30"
+                          height="23"
+                          viewBox="0 0 30 23"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M29.999 0L29.0703 2.5H26.659L22.3165 17.5H5.76777L-0.000976562 3.75H21.014L20.309 6.25H3.75902L7.43027 15H20.4653L24.7553 0H29.999ZM10.624 18.75C9.58902 18.75 8.74902 19.59 8.74902 20.625C8.74902 21.6612 9.58902 22.5 10.624 22.5C11.659 22.5 12.499 21.6612 12.499 20.625C12.499 19.59 11.659 18.75 10.624 18.75ZM19.249 10L16.874 18.75C15.839 18.75 14.999 19.5888 14.999 20.625C14.999 21.6612 15.839 22.5 16.874 22.5C17.909 22.5 18.749 21.6612 18.749 20.625C18.749 19.59 17.909 18.75 16.874 18.75L19.249 10Z"
+                            fill="#fff"
+                          />
+                        </svg>
+                      </a>
+                    </li>
+                    <li class=" catalog-item">
+                      <a
+                        class="catalog-item__like-link"
+                        href="#"
+                      >
+                        <svg
+                          class="catalog-item__like-img"
+                          width="24"
+                          height="22"
+                          viewBox="0 0 24 22"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z"
+                            fill="#333"
+                          />
+                        </svg>
+                      </a>
+                      <img
+                        class="catalog-item__img"
+                        src="images/catalog-images/3.jpg"
+                        alt="image"
+                      />
+                      <span class="catalog-item__title">
+                        ФЛЮДИТЕК
+                      </span>
+                      <span class="catalog-item__text">
+                        (сироп для детей 20 мг) Laboratoire Innotech
+                      </span>
+                      <a
+                        class="catalog-item__link"
+                        href="card.html"
+                      >
+                        Посмотреть товар
+                      </a>
+                      <a class="catalog-item__basket" href="#">
+                        <span
+                          class="
+                            
+                            catalog-item__basket-text
+                          "
+                        >
+                          в корзину
+                        </span>
+                        <svg
+                          class="catalog-item__basket-img"
+                          width="30"
+                          height="23"
+                          viewBox="0 0 30 23"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M29.999 0L29.0703 2.5H26.659L22.3165 17.5H5.76777L-0.000976562 3.75H21.014L20.309 6.25H3.75902L7.43027 15H20.4653L24.7553 0H29.999ZM10.624 18.75C9.58902 18.75 8.74902 19.59 8.74902 20.625C8.74902 21.6612 9.58902 22.5 10.624 22.5C11.659 22.5 12.499 21.6612 12.499 20.625C12.499 19.59 11.659 18.75 10.624 18.75ZM19.249 10L16.874 18.75C15.839 18.75 14.999 19.5888 14.999 20.625C14.999 21.6612 15.839 22.5 16.874 22.5C17.909 22.5 18.749 21.6612 18.749 20.625C18.749 19.59 17.909 18.75 16.874 18.75L19.249 10Z"
+                            fill="#fff"
+                          />
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="catalog-item">
+                      <a
+                        class=" catalog-item__like-link"
+                        href="#"
+                      >
+                        <svg
+                          class="catalog-item__like-img"
+                          width="24"
+                          height="22"
+                          viewBox="0 0 24 22"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z"
+                            fill="#333"
+                          />
+                        </svg>
+                      </a>
+                      <img
+                        class=" catalog-item__img"
+                        src="images/catalog-images/4.jpg"
+                        alt="image"
+                      />
+                      <span class="catalog-item__title">
+                        АМБРОГЕКСАЛ
+                      </span>
+                      <span class="catalog-item__text">
+                        (раствор для приема внутрь и ингаляций 7,5мг/мл фл. 50
+                      </span>
+                      <a
+                        class="catalog-item__link"
+                        href="card.html"
+                      >
+                        Посмотреть товар
+                      </a>
+                      <a class="catalog-item__basket" href="#">
+                        <span
+                          class="
+                            
+                            catalog-item__basket-text
+                          "
+                        >
+                          в корзину
+                        </span>
+                        <svg
+                          class="catalog-item__basket-img"
+                          width="30"
+                          height="23"
+                          viewBox="0 0 30 23"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M29.999 0L29.0703 2.5H26.659L22.3165 17.5H5.76777L-0.000976562 3.75H21.014L20.309 6.25H3.75902L7.43027 15H20.4653L24.7553 0H29.999ZM10.624 18.75C9.58902 18.75 8.74902 19.59 8.74902 20.625C8.74902 21.6612 9.58902 22.5 10.624 22.5C11.659 22.5 12.499 21.6612 12.499 20.625C12.499 19.59 11.659 18.75 10.624 18.75ZM19.249 10L16.874 18.75C15.839 18.75 14.999 19.5888 14.999 20.625C14.999 21.6612 15.839 22.5 16.874 22.5C17.909 22.5 18.749 21.6612 18.749 20.625C18.749 19.59 17.909 18.75 16.874 18.75L19.249 10Z"
+                            fill="#fff"
+                          />
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="catalog-item">
+                      <a class="catalog-item__like-link" href="#">
+                        <svg
+                          class="catalog-item__like-img"
+                          width="24"
+                          height="22"
+                          viewBox="0 0 24 22"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z"
+                            fill="#333"
+                          />
+                        </svg>
+                      </a>
+                      <img
+                        class="catalog-item__img"
+                        src="images/catalog-images/1.jpg"
+                        alt="image"
+                      />
+                      <span class="catalog-item__title"> Доктор мом </span>
+                      <span class="catalog-item__text">
+                        растительные пастилки от кашля
+                      </span>
+                      <a class="catalog-item__link" href="card.html">
+                        Посмотреть товар
+                      </a>
+                      <a class="catalog-item__basket" href="#">
+                        <span
+                          class="
+                            new__item-basket__text
+                            catalog-item__basket-text
+                          "
+                        >
+                          в корзину
+                        </span>
+                        <svg
+                          class="catalog-item__basket-img"
+                          width="30"
+                          height="23"
+                          viewBox="0 0 30 23"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M29.999 0L29.0703 2.5H26.659L22.3165 17.5H5.76777L-0.000976562 3.75H21.014L20.309 6.25H3.75902L7.43027 15H20.4653L24.7553 0H29.999ZM10.624 18.75C9.58902 18.75 8.74902 19.59 8.74902 20.625C8.74902 21.6612 9.58902 22.5 10.624 22.5C11.659 22.5 12.499 21.6612 12.499 20.625C12.499 19.59 11.659 18.75 10.624 18.75ZM19.249 10L16.874 18.75C15.839 18.75 14.999 19.5888 14.999 20.625C14.999 21.6612 15.839 22.5 16.874 22.5C17.909 22.5 18.749 21.6612 18.749 20.625C18.749 19.59 17.909 18.75 16.874 18.75L19.249 10Z"
+                            fill="#fff"
+                          />
+                        </svg>
+                      </a>
+                    </li>
+                    <li class=" catalog-item">
+                      <a
+                        class="catalog-item__like-link"
+                        href="#"
+                      >
+                        <svg
+                          class="catalog-item__like-img"
+                          width="24"
+                          height="22"
+                          viewBox="0 0 24 22"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z"
+                            fill="#333"
+                          />
+                        </svg>
+                      </a>
+                      <img
+                        class=" catalog-item__img"
+                        src="images/catalog-images/2.jpg"
+                        alt="image"
+                      />
+                      <span class="catalog-item__title">
+                        БРОНХИПРЕТ
+                      </span>
+                      <span class="catalog-item__text">
+                        (сироп фл. 100 мл №1) Bionorica SE-Германия
+                      </span>
+                      <a
+                        class=" catalog-item__link"
+                        href="card.html"
+                      >
+                        Посмотреть товар
+                      </a>
+                      <a class="catalog-item__basket" href="#">
+                        <span
+                          class="
+                            
+                            catalog-item__basket-text
+                          "
+                        >
+                          в корзину
+                        </span>
+                        <svg
+                          class="catalog-item__basket-img"
+                          width="30"
+                          height="23"
+                          viewBox="0 0 30 23"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M29.999 0L29.0703 2.5H26.659L22.3165 17.5H5.76777L-0.000976562 3.75H21.014L20.309 6.25H3.75902L7.43027 15H20.4653L24.7553 0H29.999ZM10.624 18.75C9.58902 18.75 8.74902 19.59 8.74902 20.625C8.74902 21.6612 9.58902 22.5 10.624 22.5C11.659 22.5 12.499 21.6612 12.499 20.625C12.499 19.59 11.659 18.75 10.624 18.75ZM19.249 10L16.874 18.75C15.839 18.75 14.999 19.5888 14.999 20.625C14.999 21.6612 15.839 22.5 16.874 22.5C17.909 22.5 18.749 21.6612 18.749 20.625C18.749 19.59 17.909 18.75 16.874 18.75L19.249 10Z"
+                            fill="#fff"
+                          />
+                        </svg>
+                      </a>
+                    </li>
+                    <li class=" catalog-item">
+                      <a
+                        class="catalog-item__like-link"
+                        href="#"
+                      >
+                        <svg
+                          class="catalog-item__like-img"
+                          width="24"
+                          height="22"
+                          viewBox="0 0 24 22"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z"
+                            fill="#333"
+                          />
+                        </svg>
+                      </a>
+                      <img
+                        class="catalog-item__img"
+                        src="images/catalog-images/3.jpg"
+                        alt="image"
+                      />
+                      <span class="catalog-item__title">
+                        ФЛЮДИТЕК
+                      </span>
+                      <span class="catalog-item__text">
+                        (сироп для детей 20 мг) Laboratoire Innotech
+                      </span>
+                      <a
+                        class="catalog-item__link"
+                        href="card.html"
+                      >
+                        Посмотреть товар
+                      </a>
+                      <a class="catalog-item__basket" href="#">
+                        <span
+                          class="
+                            
+                            catalog-item__basket-text
+                          "
+                        >
+                          в корзину
+                        </span>
+                        <svg
+                          class="catalog-item__basket-img"
+                          width="30"
+                          height="23"
+                          viewBox="0 0 30 23"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M29.999 0L29.0703 2.5H26.659L22.3165 17.5H5.76777L-0.000976562 3.75H21.014L20.309 6.25H3.75902L7.43027 15H20.4653L24.7553 0H29.999ZM10.624 18.75C9.58902 18.75 8.74902 19.59 8.74902 20.625C8.74902 21.6612 9.58902 22.5 10.624 22.5C11.659 22.5 12.499 21.6612 12.499 20.625C12.499 19.59 11.659 18.75 10.624 18.75ZM19.249 10L16.874 18.75C15.839 18.75 14.999 19.5888 14.999 20.625C14.999 21.6612 15.839 22.5 16.874 22.5C17.909 22.5 18.749 21.6612 18.749 20.625C18.749 19.59 17.909 18.75 16.874 18.75L19.249 10Z"
+                            fill="#fff"
+                          />
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="catalog-item">
+                      <a
+                        class=" catalog-item__like-link"
+                        href="#"
+                      >
+                        <svg
+                          class="catalog-item__like-img"
+                          width="24"
+                          height="22"
+                          viewBox="0 0 24 22"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z"
+                            fill="#333"
+                          />
+                        </svg>
+                      </a>
+                      <img
+                        class=" catalog-item__img"
+                        src="images/catalog-images/4.jpg"
+                        alt="image"
+                      />
+                      <span class="catalog-item__title">
+                        АМБРОГЕКСАЛ
+                      </span>
+                      <span class="catalog-item__text">
+                        (раствор для приема внутрь и ингаляций 7,5мг/мл фл. 50
+                      </span>
+                      <a
+                        class="catalog-item__link"
+                        href="card.html"
+                      >
+                        Посмотреть товар
+                      </a>
+                      <a class="catalog-item__basket" href="#">
+                        <span
+                          class="
+                            
+                            catalog-item__basket-text
+                          "
+                        >
+                          в корзину
+                        </span>
+                        <svg
+                          class="catalog-item__basket-img"
+                          width="30"
+                          height="23"
+                          viewBox="0 0 30 23"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M29.999 0L29.0703 2.5H26.659L22.3165 17.5H5.76777L-0.000976562 3.75H21.014L20.309 6.25H3.75902L7.43027 15H20.4653L24.7553 0H29.999ZM10.624 18.75C9.58902 18.75 8.74902 19.59 8.74902 20.625C8.74902 21.6612 9.58902 22.5 10.624 22.5C11.659 22.5 12.499 21.6612 12.499 20.625C12.499 19.59 11.659 18.75 10.624 18.75ZM19.249 10L16.874 18.75C15.839 18.75 14.999 19.5888 14.999 20.625C14.999 21.6612 15.839 22.5 16.874 22.5C17.909 22.5 18.749 21.6612 18.749 20.625C18.749 19.59 17.909 18.75 16.874 18.75L19.249 10Z"
+                            fill="#fff"
+                          />
+                        </svg>
+                      </a>
+                    </li>
+                  </div>
+                  <div
+                    class="
+                      catalog__tabs-content
+                      tabs-content
+                    "
+                    id="vitamins"
+                  >
+                    
+                    <li class=" catalog-item">
+                      <a
+                        class="catalog-item__like-link"
+                        href="#"
+                      >
+                        <svg
+                          class="catalog-item__like-img"
+                          width="24"
+                          height="22"
+                          viewBox="0 0 24 22"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z"
+                            fill="#333"
+                          />
+                        </svg>
+                      </a>
+                      <img
+                        class=" catalog-item__img"
+                        src="images/catalog-images/2.jpg"
+                        alt="image"
+                      />
+                      <span class="catalog-item__title">
+                        БРОНХИПРЕТ
+                      </span>
+                      <span class="catalog-item__text">
+                        (сироп фл. 100 мл №1) Bionorica SE-Германия
+                      </span>
+                      <a
+                        class=" catalog-item__link"
+                        href="card.html"
+                      >
+                        Посмотреть товар
+                      </a>
+                      <a class="catalog-item__basket" href="#">
+                        <span
+                          class="
+                            
+                            catalog-item__basket-text
+                          "
+                        >
+                          в корзину
+                        </span>
+                        <svg
+                          class="catalog-item__basket-img"
+                          width="30"
+                          height="23"
+                          viewBox="0 0 30 23"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M29.999 0L29.0703 2.5H26.659L22.3165 17.5H5.76777L-0.000976562 3.75H21.014L20.309 6.25H3.75902L7.43027 15H20.4653L24.7553 0H29.999ZM10.624 18.75C9.58902 18.75 8.74902 19.59 8.74902 20.625C8.74902 21.6612 9.58902 22.5 10.624 22.5C11.659 22.5 12.499 21.6612 12.499 20.625C12.499 19.59 11.659 18.75 10.624 18.75ZM19.249 10L16.874 18.75C15.839 18.75 14.999 19.5888 14.999 20.625C14.999 21.6612 15.839 22.5 16.874 22.5C17.909 22.5 18.749 21.6612 18.749 20.625C18.749 19.59 17.909 18.75 16.874 18.75L19.249 10Z"
+                            fill="#fff"
+                          />
+                        </svg>
+                      </a>
+                    </li>
+                    <li class=" catalog-item">
+                      <a
+                        class="catalog-item__like-link"
+                        href="#"
+                      >
+                        <svg
+                          class="catalog-item__like-img"
+                          width="24"
+                          height="22"
+                          viewBox="0 0 24 22"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z"
+                            fill="#333"
+                          />
+                        </svg>
+                      </a>
+                      <img
+                        class="catalog-item__img"
+                        src="images/catalog-images/3.jpg"
+                        alt="image"
+                      />
+                      <span class="catalog-item__title">
+                        ФЛЮДИТЕК
+                      </span>
+                      <span class="catalog-item__text">
+                        (сироп для детей 20 мг) Laboratoire Innotech
+                      </span>
+                      <a
+                        class="catalog-item__link"
+                        href="card.html"
+                      >
+                        Посмотреть товар
+                      </a>
+                      <a class="catalog-item__basket" href="#">
+                        <span
+                          class="
+                            
+                            catalog-item__basket-text
+                          "
+                        >
+                          в корзину
+                        </span>
+                        <svg
+                          class="catalog-item__basket-img"
+                          width="30"
+                          height="23"
+                          viewBox="0 0 30 23"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M29.999 0L29.0703 2.5H26.659L22.3165 17.5H5.76777L-0.000976562 3.75H21.014L20.309 6.25H3.75902L7.43027 15H20.4653L24.7553 0H29.999ZM10.624 18.75C9.58902 18.75 8.74902 19.59 8.74902 20.625C8.74902 21.6612 9.58902 22.5 10.624 22.5C11.659 22.5 12.499 21.6612 12.499 20.625C12.499 19.59 11.659 18.75 10.624 18.75ZM19.249 10L16.874 18.75C15.839 18.75 14.999 19.5888 14.999 20.625C14.999 21.6612 15.839 22.5 16.874 22.5C17.909 22.5 18.749 21.6612 18.749 20.625C18.749 19.59 17.909 18.75 16.874 18.75L19.249 10Z"
+                            fill="#fff"
+                          />
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="catalog-item">
+                      <a
+                        class=" catalog-item__like-link"
+                        href="#"
+                      >
+                        <svg
+                          class="catalog-item__like-img"
+                          width="24"
+                          height="22"
+                          viewBox="0 0 24 22"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z"
+                            fill="#333"
+                          />
+                        </svg>
+                      </a>
+                      <img
+                        class=" catalog-item__img"
+                        src="images/catalog-images/4.jpg"
+                        alt="image"
+                      />
+                      <span class="catalog-item__title">
+                        АМБРОГЕКСАЛ
+                      </span>
+                      <span class="catalog-item__text">
+                        (раствор для приема внутрь и ингаляций 7,5мг/мл фл. 50
+                      </span>
+                      <a
+                        class="catalog-item__link"
+                        href="card.html"
+                      >
+                        Посмотреть товар
+                      </a>
+                      <a class="catalog-item__basket" href="#">
+                        <span
+                          class="
+                            
+                            catalog-item__basket-text
+                          "
+                        >
+                          в корзину
+                        </span>
+                        <svg
+                          class="catalog-item__basket-img"
+                          width="30"
+                          height="23"
+                          viewBox="0 0 30 23"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M29.999 0L29.0703 2.5H26.659L22.3165 17.5H5.76777L-0.000976562 3.75H21.014L20.309 6.25H3.75902L7.43027 15H20.4653L24.7553 0H29.999ZM10.624 18.75C9.58902 18.75 8.74902 19.59 8.74902 20.625C8.74902 21.6612 9.58902 22.5 10.624 22.5C11.659 22.5 12.499 21.6612 12.499 20.625C12.499 19.59 11.659 18.75 10.624 18.75ZM19.249 10L16.874 18.75C15.839 18.75 14.999 19.5888 14.999 20.625C14.999 21.6612 15.839 22.5 16.874 22.5C17.909 22.5 18.749 21.6612 18.749 20.625C18.749 19.59 17.909 18.75 16.874 18.75L19.249 10Z"
+                            fill="#fff"
+                          />
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="catalog-item">
+                      <a class="catalog-item__like-link" href="#">
+                        <svg
+                          class="catalog-item__like-img"
+                          width="24"
+                          height="22"
+                          viewBox="0 0 24 22"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z"
+                            fill="#333"
+                          />
+                        </svg>
+                      </a>
+                      <img
+                        class="catalog-item__img"
+                        src="images/catalog-images/1.jpg"
+                        alt="image"
+                      />
+                      <span class="catalog-item__title"> Доктор мом </span>
+                      <span class="catalog-item__text">
+                        растительные пастилки от кашля
+                      </span>
+                      <a class="catalog-item__link" href="card.html">
+                        Посмотреть товар
+                      </a>
+                      <a class="catalog-item__basket" href="#">
+                        <span
+                          class="
+                            new__item-basket__text
+                            catalog-item__basket-text
+                          "
+                        >
+                          в корзину
+                        </span>
+                        <svg
+                          class="catalog-item__basket-img"
+                          width="30"
+                          height="23"
+                          viewBox="0 0 30 23"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M29.999 0L29.0703 2.5H26.659L22.3165 17.5H5.76777L-0.000976562 3.75H21.014L20.309 6.25H3.75902L7.43027 15H20.4653L24.7553 0H29.999ZM10.624 18.75C9.58902 18.75 8.74902 19.59 8.74902 20.625C8.74902 21.6612 9.58902 22.5 10.624 22.5C11.659 22.5 12.499 21.6612 12.499 20.625C12.499 19.59 11.659 18.75 10.624 18.75ZM19.249 10L16.874 18.75C15.839 18.75 14.999 19.5888 14.999 20.625C14.999 21.6612 15.839 22.5 16.874 22.5C17.909 22.5 18.749 21.6612 18.749 20.625C18.749 19.59 17.909 18.75 16.874 18.75L19.249 10Z"
+                            fill="#fff"
+                          />
+                        </svg>
+                      </a>
+                    </li>
+                    <li class=" catalog-item">
+                      <a
+                        class="catalog-item__like-link"
+                        href="#"
+                      >
+                        <svg
+                          class="catalog-item__like-img"
+                          width="24"
+                          height="22"
+                          viewBox="0 0 24 22"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z"
+                            fill="#333"
+                          />
+                        </svg>
+                      </a>
+                      <img
+                        class=" catalog-item__img"
+                        src="images/catalog-images/2.jpg"
+                        alt="image"
+                      />
+                      <span class="catalog-item__title">
+                        БРОНХИПРЕТ
+                      </span>
+                      <span class="catalog-item__text">
+                        (сироп фл. 100 мл №1) Bionorica SE-Германия
+                      </span>
+                      <a
+                        class=" catalog-item__link"
+                        href="card.html"
+                      >
+                        Посмотреть товар
+                      </a>
+                      <a class="catalog-item__basket" href="#">
+                        <span
+                          class="
+                            
+                            catalog-item__basket-text
+                          "
+                        >
+                          в корзину
+                        </span>
+                        <svg
+                          class="catalog-item__basket-img"
+                          width="30"
+                          height="23"
+                          viewBox="0 0 30 23"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M29.999 0L29.0703 2.5H26.659L22.3165 17.5H5.76777L-0.000976562 3.75H21.014L20.309 6.25H3.75902L7.43027 15H20.4653L24.7553 0H29.999ZM10.624 18.75C9.58902 18.75 8.74902 19.59 8.74902 20.625C8.74902 21.6612 9.58902 22.5 10.624 22.5C11.659 22.5 12.499 21.6612 12.499 20.625C12.499 19.59 11.659 18.75 10.624 18.75ZM19.249 10L16.874 18.75C15.839 18.75 14.999 19.5888 14.999 20.625C14.999 21.6612 15.839 22.5 16.874 22.5C17.909 22.5 18.749 21.6612 18.749 20.625C18.749 19.59 17.909 18.75 16.874 18.75L19.249 10Z"
+                            fill="#fff"
+                          />
+                        </svg>
+                      </a>
+                    </li>
+                    <li class=" catalog-item">
+                      <a
+                        class="catalog-item__like-link"
+                        href="#"
+                      >
+                        <svg
+                          class="catalog-item__like-img"
+                          width="24"
+                          height="22"
+                          viewBox="0 0 24 22"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z"
+                            fill="#333"
+                          />
+                        </svg>
+                      </a>
+                      <img
+                        class="catalog-item__img"
+                        src="images/catalog-images/3.jpg"
+                        alt="image"
+                      />
+                      <span class="catalog-item__title">
+                        ФЛЮДИТЕК
+                      </span>
+                      <span class="catalog-item__text">
+                        (сироп для детей 20 мг) Laboratoire Innotech
+                      </span>
+                      <a
+                        class="catalog-item__link"
+                        href="card.html"
+                      >
+                        Посмотреть товар
+                      </a>
+                      <a class="catalog-item__basket" href="#">
+                        <span
+                          class="
+                            
+                            catalog-item__basket-text
+                          "
+                        >
+                          в корзину
+                        </span>
+                        <svg
+                          class="catalog-item__basket-img"
+                          width="30"
+                          height="23"
+                          viewBox="0 0 30 23"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M29.999 0L29.0703 2.5H26.659L22.3165 17.5H5.76777L-0.000976562 3.75H21.014L20.309 6.25H3.75902L7.43027 15H20.4653L24.7553 0H29.999ZM10.624 18.75C9.58902 18.75 8.74902 19.59 8.74902 20.625C8.74902 21.6612 9.58902 22.5 10.624 22.5C11.659 22.5 12.499 21.6612 12.499 20.625C12.499 19.59 11.659 18.75 10.624 18.75ZM19.249 10L16.874 18.75C15.839 18.75 14.999 19.5888 14.999 20.625C14.999 21.6612 15.839 22.5 16.874 22.5C17.909 22.5 18.749 21.6612 18.749 20.625C18.749 19.59 17.909 18.75 16.874 18.75L19.249 10Z"
+                            fill="#fff"
+                          />
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="catalog-item">
+                      <a
+                        class=" catalog-item__like-link"
+                        href="#"
+                      >
+                        <svg
+                          class="catalog-item__like-img"
+                          width="24"
+                          height="22"
+                          viewBox="0 0 24 22"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z"
+                            fill="#333"
+                          />
+                        </svg>
+                      </a>
+                      <img
+                        class=" catalog-item__img"
+                        src="images/catalog-images/4.jpg"
+                        alt="image"
+                      />
+                      <span class="catalog-item__title">
+                        АМБРОГЕКСАЛ
+                      </span>
+                      <span class="catalog-item__text">
+                        (раствор для приема внутрь и ингаляций 7,5мг/мл фл. 50
+                      </span>
+                      <a
+                        class="catalog-item__link"
+                        href="card.html"
+                      >
+                        Посмотреть товар
+                      </a>
+                      <a class="catalog-item__basket" href="#">
+                        <span
+                          class="
+                            
+                            catalog-item__basket-text
+                          "
+                        >
+                          в корзину
+                        </span>
+                        <svg
+                          class="catalog-item__basket-img"
+                          width="30"
+                          height="23"
+                          viewBox="0 0 30 23"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M29.999 0L29.0703 2.5H26.659L22.3165 17.5H5.76777L-0.000976562 3.75H21.014L20.309 6.25H3.75902L7.43027 15H20.4653L24.7553 0H29.999ZM10.624 18.75C9.58902 18.75 8.74902 19.59 8.74902 20.625C8.74902 21.6612 9.58902 22.5 10.624 22.5C11.659 22.5 12.499 21.6612 12.499 20.625C12.499 19.59 11.659 18.75 10.624 18.75ZM19.249 10L16.874 18.75C15.839 18.75 14.999 19.5888 14.999 20.625C14.999 21.6612 15.839 22.5 16.874 22.5C17.909 22.5 18.749 21.6612 18.749 20.625C18.749 19.59 17.909 18.75 16.874 18.75L19.249 10Z"
+                            fill="#fff"
+                          />
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="catalog-item">
+                      <a class="catalog-item__like-link" href="#">
+                        <svg
+                          class="catalog-item__like-img"
+                          width="24"
+                          height="22"
+                          viewBox="0 0 24 22"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z"
+                            fill="#333"
+                          />
+                        </svg>
+                      </a>
+                      <img
+                        class="catalog-item__img"
+                        src="images/catalog-images/1.jpg"
+                        alt="image"
+                      />
+                      <span class="catalog-item__title"> Доктор мом </span>
+                      <span class="catalog-item__text">
+                        растительные пастилки от кашля
+                      </span>
+                      <a class="catalog-item__link" href="card.html">
+                        Посмотреть товар
+                      </a>
+                      <a class="catalog-item__basket" href="#">
+                        <span
+                          class="
+                            new__item-basket__text
+                            catalog-item__basket-text
+                          "
+                        >
+                          в корзину
+                        </span>
+                        <svg
+                          class="catalog-item__basket-img"
+                          width="30"
+                          height="23"
+                          viewBox="0 0 30 23"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M29.999 0L29.0703 2.5H26.659L22.3165 17.5H5.76777L-0.000976562 3.75H21.014L20.309 6.25H3.75902L7.43027 15H20.4653L24.7553 0H29.999ZM10.624 18.75C9.58902 18.75 8.74902 19.59 8.74902 20.625C8.74902 21.6612 9.58902 22.5 10.624 22.5C11.659 22.5 12.499 21.6612 12.499 20.625C12.499 19.59 11.659 18.75 10.624 18.75ZM19.249 10L16.874 18.75C15.839 18.75 14.999 19.5888 14.999 20.625C14.999 21.6612 15.839 22.5 16.874 22.5C17.909 22.5 18.749 21.6612 18.749 20.625C18.749 19.59 17.909 18.75 16.874 18.75L19.249 10Z"
+                            fill="#fff"
+                          />
+                        </svg>
+                      </a>
+                    </li>
+                    <li class=" catalog-item">
+                      <a
+                        class="catalog-item__like-link"
+                        href="#"
+                      >
+                        <svg
+                          class="catalog-item__like-img"
+                          width="24"
+                          height="22"
+                          viewBox="0 0 24 22"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z"
+                            fill="#333"
+                          />
+                        </svg>
+                      </a>
+                      <img
+                        class=" catalog-item__img"
+                        src="images/catalog-images/2.jpg"
+                        alt="image"
+                      />
+                      <span class="catalog-item__title">
+                        БРОНХИПРЕТ
+                      </span>
+                      <span class="catalog-item__text">
+                        (сироп фл. 100 мл №1) Bionorica SE-Германия
+                      </span>
+                      <a
+                        class=" catalog-item__link"
+                        href="card.html"
+                      >
+                        Посмотреть товар
+                      </a>
+                      <a class="catalog-item__basket" href="#">
+                        <span
+                          class="
+                            
+                            catalog-item__basket-text
+                          "
+                        >
+                          в корзину
+                        </span>
+                        <svg
+                          class="catalog-item__basket-img"
+                          width="30"
+                          height="23"
+                          viewBox="0 0 30 23"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M29.999 0L29.0703 2.5H26.659L22.3165 17.5H5.76777L-0.000976562 3.75H21.014L20.309 6.25H3.75902L7.43027 15H20.4653L24.7553 0H29.999ZM10.624 18.75C9.58902 18.75 8.74902 19.59 8.74902 20.625C8.74902 21.6612 9.58902 22.5 10.624 22.5C11.659 22.5 12.499 21.6612 12.499 20.625C12.499 19.59 11.659 18.75 10.624 18.75ZM19.249 10L16.874 18.75C15.839 18.75 14.999 19.5888 14.999 20.625C14.999 21.6612 15.839 22.5 16.874 22.5C17.909 22.5 18.749 21.6612 18.749 20.625C18.749 19.59 17.909 18.75 16.874 18.75L19.249 10Z"
+                            fill="#fff"
+                          />
+                        </svg>
+                      </a>
+                    </li>
+                    <li class=" catalog-item">
+                      <a
+                        class="catalog-item__like-link"
+                        href="#"
+                      >
+                        <svg
+                          class="catalog-item__like-img"
+                          width="24"
+                          height="22"
+                          viewBox="0 0 24 22"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z"
+                            fill="#333"
+                          />
+                        </svg>
+                      </a>
+                      <img
+                        class="catalog-item__img"
+                        src="images/catalog-images/3.jpg"
+                        alt="image"
+                      />
+                      <span class="catalog-item__title">
+                        ФЛЮДИТЕК
+                      </span>
+                      <span class="catalog-item__text">
+                        (сироп для детей 20 мг) Laboratoire Innotech
+                      </span>
+                      <a
+                        class="catalog-item__link"
+                        href="card.html"
+                      >
+                        Посмотреть товар
+                      </a>
+                      <a class="catalog-item__basket" href="#">
+                        <span
+                          class="
+                            
+                            catalog-item__basket-text
+                          "
+                        >
+                          в корзину
+                        </span>
+                        <svg
+                          class="catalog-item__basket-img"
+                          width="30"
+                          height="23"
+                          viewBox="0 0 30 23"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M29.999 0L29.0703 2.5H26.659L22.3165 17.5H5.76777L-0.000976562 3.75H21.014L20.309 6.25H3.75902L7.43027 15H20.4653L24.7553 0H29.999ZM10.624 18.75C9.58902 18.75 8.74902 19.59 8.74902 20.625C8.74902 21.6612 9.58902 22.5 10.624 22.5C11.659 22.5 12.499 21.6612 12.499 20.625C12.499 19.59 11.659 18.75 10.624 18.75ZM19.249 10L16.874 18.75C15.839 18.75 14.999 19.5888 14.999 20.625C14.999 21.6612 15.839 22.5 16.874 22.5C17.909 22.5 18.749 21.6612 18.749 20.625C18.749 19.59 17.909 18.75 16.874 18.75L19.249 10Z"
+                            fill="#fff"
+                          />
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="catalog-item">
+                      <a
+                        class=" catalog-item__like-link"
+                        href="#"
+                      >
+                        <svg
+                          class="catalog-item__like-img"
+                          width="24"
+                          height="22"
+                          viewBox="0 0 24 22"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z"
+                            fill="#333"
+                          />
+                        </svg>
+                      </a>
+                      <img
+                        class=" catalog-item__img"
+                        src="images/catalog-images/4.jpg"
+                        alt="image"
+                      />
+                      <span class="catalog-item__title">
+                        АМБРОГЕКСАЛ
+                      </span>
+                      <span class="catalog-item__text">
+                        (раствор для приема внутрь и ингаляций 7,5мг/мл фл. 50
+                      </span>
+                      <a
+                        class="catalog-item__link"
+                        href="card.html"
+                      >
+                        Посмотреть товар
+                      </a>
+                      <a class="catalog-item__basket" href="#">
+                        <span
+                          class="
+                            
+                            catalog-item__basket-text
+                          "
+                        >
+                          в корзину
+                        </span>
+                        <svg
+                          class="catalog-item__basket-img"
+                          width="30"
+                          height="23"
+                          viewBox="0 0 30 23"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M29.999 0L29.0703 2.5H26.659L22.3165 17.5H5.76777L-0.000976562 3.75H21.014L20.309 6.25H3.75902L7.43027 15H20.4653L24.7553 0H29.999ZM10.624 18.75C9.58902 18.75 8.74902 19.59 8.74902 20.625C8.74902 21.6612 9.58902 22.5 10.624 22.5C11.659 22.5 12.499 21.6612 12.499 20.625C12.499 19.59 11.659 18.75 10.624 18.75ZM19.249 10L16.874 18.75C15.839 18.75 14.999 19.5888 14.999 20.625C14.999 21.6612 15.839 22.5 16.874 22.5C17.909 22.5 18.749 21.6612 18.749 20.625C18.749 19.59 17.909 18.75 16.874 18.75L19.249 10Z"
+                            fill="#fff"
+                          />
+                        </svg>
+                      </a>
+                    </li>
+                  </div>
+                  <div
+                    class="
+                      catalog__tabs-content
+                      
+                    "
+                    id="protection"
+                  >
+                    
+                    
+                    <li class=" catalog-item">
+                      <a
+                        class="catalog-item__like-link"
+                        href="#"
+                      >
+                        <svg
+                          class="catalog-item__like-img"
+                          width="24"
+                          height="22"
+                          viewBox="0 0 24 22"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z"
+                            fill="#333"
+                          />
+                        </svg>
+                      </a>
+                      <img
+                        class="catalog-item__img"
+                        src="images/catalog-images/3.jpg"
+                        alt="image"
+                      />
+                      <span class="catalog-item__title">
+                        ФЛЮДИТЕК
+                      </span>
+                      <span class="catalog-item__text">
+                        (сироп для детей 20 мг) Laboratoire Innotech
+                      </span>
+                      <a
+                        class="catalog-item__link"
+                        href="card.html"
+                      >
+                        Посмотреть товар
+                      </a>
+                      <a class="catalog-item__basket" href="#">
+                        <span
+                          class="
+                            
+                            catalog-item__basket-text
+                          "
+                        >
+                          в корзину
+                        </span>
+                        <svg
+                          class="catalog-item__basket-img"
+                          width="30"
+                          height="23"
+                          viewBox="0 0 30 23"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M29.999 0L29.0703 2.5H26.659L22.3165 17.5H5.76777L-0.000976562 3.75H21.014L20.309 6.25H3.75902L7.43027 15H20.4653L24.7553 0H29.999ZM10.624 18.75C9.58902 18.75 8.74902 19.59 8.74902 20.625C8.74902 21.6612 9.58902 22.5 10.624 22.5C11.659 22.5 12.499 21.6612 12.499 20.625C12.499 19.59 11.659 18.75 10.624 18.75ZM19.249 10L16.874 18.75C15.839 18.75 14.999 19.5888 14.999 20.625C14.999 21.6612 15.839 22.5 16.874 22.5C17.909 22.5 18.749 21.6612 18.749 20.625C18.749 19.59 17.909 18.75 16.874 18.75L19.249 10Z"
+                            fill="#fff"
+                          />
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="catalog-item">
+                      <a
+                        class=" catalog-item__like-link"
+                        href="#"
+                      >
+                        <svg
+                          class="catalog-item__like-img"
+                          width="24"
+                          height="22"
+                          viewBox="0 0 24 22"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z"
+                            fill="#333"
+                          />
+                        </svg>
+                      </a>
+                      <img
+                        class=" catalog-item__img"
+                        src="images/catalog-images/4.jpg"
+                        alt="image"
+                      />
+                      <span class="catalog-item__title">
+                        АМБРОГЕКСАЛ
+                      </span>
+                      <span class="catalog-item__text">
+                        (раствор для приема внутрь и ингаляций 7,5мг/мл фл. 50
+                      </span>
+                      <a
+                        class="catalog-item__link"
+                        href="card.html"
+                      >
+                        Посмотреть товар
+                      </a>
+                      <a class="catalog-item__basket" href="#">
+                        <span
+                          class="
+                            
+                            catalog-item__basket-text
+                          "
+                        >
+                          в корзину
+                        </span>
+                        <svg
+                          class="catalog-item__basket-img"
+                          width="30"
+                          height="23"
+                          viewBox="0 0 30 23"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M29.999 0L29.0703 2.5H26.659L22.3165 17.5H5.76777L-0.000976562 3.75H21.014L20.309 6.25H3.75902L7.43027 15H20.4653L24.7553 0H29.999ZM10.624 18.75C9.58902 18.75 8.74902 19.59 8.74902 20.625C8.74902 21.6612 9.58902 22.5 10.624 22.5C11.659 22.5 12.499 21.6612 12.499 20.625C12.499 19.59 11.659 18.75 10.624 18.75ZM19.249 10L16.874 18.75C15.839 18.75 14.999 19.5888 14.999 20.625C14.999 21.6612 15.839 22.5 16.874 22.5C17.909 22.5 18.749 21.6612 18.749 20.625C18.749 19.59 17.909 18.75 16.874 18.75L19.249 10Z"
+                            fill="#fff"
+                          />
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="catalog-item">
+                      <a class="catalog-item__like-link" href="#">
+                        <svg
+                          class="catalog-item__like-img"
+                          width="24"
+                          height="22"
+                          viewBox="0 0 24 22"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z"
+                            fill="#333"
+                          />
+                        </svg>
+                      </a>
+                      <img
+                        class="catalog-item__img"
+                        src="images/catalog-images/1.jpg"
+                        alt="image"
+                      />
+                      <span class="catalog-item__title"> Доктор мом </span>
+                      <span class="catalog-item__text">
+                        растительные пастилки от кашля
+                      </span>
+                      <a class="catalog-item__link" href="card.html">
+                        Посмотреть товар
+                      </a>
+                      <a class="catalog-item__basket" href="#">
+                        <span
+                          class="
+                            new__item-basket__text
+                            catalog-item__basket-text
+                          "
+                        >
+                          в корзину
+                        </span>
+                        <svg
+                          class="catalog-item__basket-img"
+                          width="30"
+                          height="23"
+                          viewBox="0 0 30 23"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M29.999 0L29.0703 2.5H26.659L22.3165 17.5H5.76777L-0.000976562 3.75H21.014L20.309 6.25H3.75902L7.43027 15H20.4653L24.7553 0H29.999ZM10.624 18.75C9.58902 18.75 8.74902 19.59 8.74902 20.625C8.74902 21.6612 9.58902 22.5 10.624 22.5C11.659 22.5 12.499 21.6612 12.499 20.625C12.499 19.59 11.659 18.75 10.624 18.75ZM19.249 10L16.874 18.75C15.839 18.75 14.999 19.5888 14.999 20.625C14.999 21.6612 15.839 22.5 16.874 22.5C17.909 22.5 18.749 21.6612 18.749 20.625C18.749 19.59 17.909 18.75 16.874 18.75L19.249 10Z"
+                            fill="#fff"
+                          />
+                        </svg>
+                      </a>
+                    </li>
+                    <li class=" catalog-item">
+                      <a
+                        class="catalog-item__like-link"
+                        href="#"
+                      >
+                        <svg
+                          class="catalog-item__like-img"
+                          width="24"
+                          height="22"
+                          viewBox="0 0 24 22"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z"
+                            fill="#333"
+                          />
+                        </svg>
+                      </a>
+                      <img
+                        class=" catalog-item__img"
+                        src="images/catalog-images/2.jpg"
+                        alt="image"
+                      />
+                      <span class="catalog-item__title">
+                        БРОНХИПРЕТ
+                      </span>
+                      <span class="catalog-item__text">
+                        (сироп фл. 100 мл №1) Bionorica SE-Германия
+                      </span>
+                      <a
+                        class=" catalog-item__link"
+                        href="card.html"
+                      >
+                        Посмотреть товар
+                      </a>
+                      <a class="catalog-item__basket" href="#">
+                        <span
+                          class="
+                            
+                            catalog-item__basket-text
+                          "
+                        >
+                          в корзину
+                        </span>
+                        <svg
+                          class="catalog-item__basket-img"
+                          width="30"
+                          height="23"
+                          viewBox="0 0 30 23"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M29.999 0L29.0703 2.5H26.659L22.3165 17.5H5.76777L-0.000976562 3.75H21.014L20.309 6.25H3.75902L7.43027 15H20.4653L24.7553 0H29.999ZM10.624 18.75C9.58902 18.75 8.74902 19.59 8.74902 20.625C8.74902 21.6612 9.58902 22.5 10.624 22.5C11.659 22.5 12.499 21.6612 12.499 20.625C12.499 19.59 11.659 18.75 10.624 18.75ZM19.249 10L16.874 18.75C15.839 18.75 14.999 19.5888 14.999 20.625C14.999 21.6612 15.839 22.5 16.874 22.5C17.909 22.5 18.749 21.6612 18.749 20.625C18.749 19.59 17.909 18.75 16.874 18.75L19.249 10Z"
+                            fill="#fff"
+                          />
+                        </svg>
+                      </a>
+                    </li>
+                    <li class=" catalog-item">
+                      <a
+                        class="catalog-item__like-link"
+                        href="#"
+                      >
+                        <svg
+                          class="catalog-item__like-img"
+                          width="24"
+                          height="22"
+                          viewBox="0 0 24 22"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z"
+                            fill="#333"
+                          />
+                        </svg>
+                      </a>
+                      <img
+                        class="catalog-item__img"
+                        src="images/catalog-images/3.jpg"
+                        alt="image"
+                      />
+                      <span class="catalog-item__title">
+                        ФЛЮДИТЕК
+                      </span>
+                      <span class="catalog-item__text">
+                        (сироп для детей 20 мг) Laboratoire Innotech
+                      </span>
+                      <a
+                        class="catalog-item__link"
+                        href="card.html"
+                      >
+                        Посмотреть товар
+                      </a>
+                      <a class="catalog-item__basket" href="#">
+                        <span
+                          class="
+                            
+                            catalog-item__basket-text
+                          "
+                        >
+                          в корзину
+                        </span>
+                        <svg
+                          class="catalog-item__basket-img"
+                          width="30"
+                          height="23"
+                          viewBox="0 0 30 23"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M29.999 0L29.0703 2.5H26.659L22.3165 17.5H5.76777L-0.000976562 3.75H21.014L20.309 6.25H3.75902L7.43027 15H20.4653L24.7553 0H29.999ZM10.624 18.75C9.58902 18.75 8.74902 19.59 8.74902 20.625C8.74902 21.6612 9.58902 22.5 10.624 22.5C11.659 22.5 12.499 21.6612 12.499 20.625C12.499 19.59 11.659 18.75 10.624 18.75ZM19.249 10L16.874 18.75C15.839 18.75 14.999 19.5888 14.999 20.625C14.999 21.6612 15.839 22.5 16.874 22.5C17.909 22.5 18.749 21.6612 18.749 20.625C18.749 19.59 17.909 18.75 16.874 18.75L19.249 10Z"
+                            fill="#fff"
+                          />
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="catalog-item">
+                      <a
+                        class=" catalog-item__like-link"
+                        href="#"
+                      >
+                        <svg
+                          class="catalog-item__like-img"
+                          width="24"
+                          height="22"
+                          viewBox="0 0 24 22"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z"
+                            fill="#333"
+                          />
+                        </svg>
+                      </a>
+                      <img
+                        class=" catalog-item__img"
+                        src="images/catalog-images/4.jpg"
+                        alt="image"
+                      />
+                      <span class="catalog-item__title">
+                        АМБРОГЕКСАЛ
+                      </span>
+                      <span class="catalog-item__text">
+                        (раствор для приема внутрь и ингаляций 7,5мг/мл фл. 50
+                      </span>
+                      <a
+                        class="catalog-item__link"
+                        href="card.html"
+                      >
+                        Посмотреть товар
+                      </a>
+                      <a class="catalog-item__basket" href="#">
+                        <span
+                          class="
+                            
+                            catalog-item__basket-text
+                          "
+                        >
+                          в корзину
+                        </span>
+                        <svg
+                          class="catalog-item__basket-img"
+                          width="30"
+                          height="23"
+                          viewBox="0 0 30 23"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M29.999 0L29.0703 2.5H26.659L22.3165 17.5H5.76777L-0.000976562 3.75H21.014L20.309 6.25H3.75902L7.43027 15H20.4653L24.7553 0H29.999ZM10.624 18.75C9.58902 18.75 8.74902 19.59 8.74902 20.625C8.74902 21.6612 9.58902 22.5 10.624 22.5C11.659 22.5 12.499 21.6612 12.499 20.625C12.499 19.59 11.659 18.75 10.624 18.75ZM19.249 10L16.874 18.75C15.839 18.75 14.999 19.5888 14.999 20.625C14.999 21.6612 15.839 22.5 16.874 22.5C17.909 22.5 18.749 21.6612 18.749 20.625C18.749 19.59 17.909 18.75 16.874 18.75L19.249 10Z"
+                            fill="#fff"
+                          />
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="catalog-item">
+                      <a class="catalog-item__like-link" href="#">
+                        <svg
+                          class="catalog-item__like-img"
+                          width="24"
+                          height="22"
+                          viewBox="0 0 24 22"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z"
+                            fill="#333"
+                          />
+                        </svg>
+                      </a>
+                      <img
+                        class="catalog-item__img"
+                        src="images/catalog-images/1.jpg"
+                        alt="image"
+                      />
+                      <span class="catalog-item__title"> Доктор мом </span>
+                      <span class="catalog-item__text">
+                        растительные пастилки от кашля
+                      </span>
+                      <a class="catalog-item__link" href="card.html">
+                        Посмотреть товар
+                      </a>
+                      <a class="catalog-item__basket" href="#">
+                        <span
+                          class="
+                            new__item-basket__text
+                            catalog-item__basket-text
+                          "
+                        >
+                          в корзину
+                        </span>
+                        <svg
+                          class="catalog-item__basket-img"
+                          width="30"
+                          height="23"
+                          viewBox="0 0 30 23"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M29.999 0L29.0703 2.5H26.659L22.3165 17.5H5.76777L-0.000976562 3.75H21.014L20.309 6.25H3.75902L7.43027 15H20.4653L24.7553 0H29.999ZM10.624 18.75C9.58902 18.75 8.74902 19.59 8.74902 20.625C8.74902 21.6612 9.58902 22.5 10.624 22.5C11.659 22.5 12.499 21.6612 12.499 20.625C12.499 19.59 11.659 18.75 10.624 18.75ZM19.249 10L16.874 18.75C15.839 18.75 14.999 19.5888 14.999 20.625C14.999 21.6612 15.839 22.5 16.874 22.5C17.909 22.5 18.749 21.6612 18.749 20.625C18.749 19.59 17.909 18.75 16.874 18.75L19.249 10Z"
+                            fill="#fff"
+                          />
+                        </svg>
+                      </a>
+                    </li>
+                    <li class=" catalog-item">
+                      <a
+                        class="catalog-item__like-link"
+                        href="#"
+                      >
+                        <svg
+                          class="catalog-item__like-img"
+                          width="24"
+                          height="22"
+                          viewBox="0 0 24 22"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z"
+                            fill="#333"
+                          />
+                        </svg>
+                      </a>
+                      <img
+                        class=" catalog-item__img"
+                        src="images/catalog-images/2.jpg"
+                        alt="image"
+                      />
+                      <span class="catalog-item__title">
+                        БРОНХИПРЕТ
+                      </span>
+                      <span class="catalog-item__text">
+                        (сироп фл. 100 мл №1) Bionorica SE-Германия
+                      </span>
+                      <a
+                        class=" catalog-item__link"
+                        href="card.html"
+                      >
+                        Посмотреть товар
+                      </a>
+                      <a class="catalog-item__basket" href="#">
+                        <span
+                          class="
+                            
+                            catalog-item__basket-text
+                          "
+                        >
+                          в корзину
+                        </span>
+                        <svg
+                          class="catalog-item__basket-img"
+                          width="30"
+                          height="23"
+                          viewBox="0 0 30 23"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M29.999 0L29.0703 2.5H26.659L22.3165 17.5H5.76777L-0.000976562 3.75H21.014L20.309 6.25H3.75902L7.43027 15H20.4653L24.7553 0H29.999ZM10.624 18.75C9.58902 18.75 8.74902 19.59 8.74902 20.625C8.74902 21.6612 9.58902 22.5 10.624 22.5C11.659 22.5 12.499 21.6612 12.499 20.625C12.499 19.59 11.659 18.75 10.624 18.75ZM19.249 10L16.874 18.75C15.839 18.75 14.999 19.5888 14.999 20.625C14.999 21.6612 15.839 22.5 16.874 22.5C17.909 22.5 18.749 21.6612 18.749 20.625C18.749 19.59 17.909 18.75 16.874 18.75L19.249 10Z"
+                            fill="#fff"
+                          />
+                        </svg>
+                      </a>
+                    </li>
+                    <li class=" catalog-item">
+                      <a
+                        class="catalog-item__like-link"
+                        href="#"
+                      >
+                        <svg
+                          class="catalog-item__like-img"
+                          width="24"
+                          height="22"
+                          viewBox="0 0 24 22"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z"
+                            fill="#333"
+                          />
+                        </svg>
+                      </a>
+                      <img
+                        class="catalog-item__img"
+                        src="images/catalog-images/3.jpg"
+                        alt="image"
+                      />
+                      <span class="catalog-item__title">
+                        ФЛЮДИТЕК
+                      </span>
+                      <span class="catalog-item__text">
+                        (сироп для детей 20 мг) Laboratoire Innotech
+                      </span>
+                      <a
+                        class="catalog-item__link"
+                        href="card.html"
+                      >
+                        Посмотреть товар
+                      </a>
+                      <a class="catalog-item__basket" href="#">
+                        <span
+                          class="
+                            
+                            catalog-item__basket-text
+                          "
+                        >
+                          в корзину
+                        </span>
+                        <svg
+                          class="catalog-item__basket-img"
+                          width="30"
+                          height="23"
+                          viewBox="0 0 30 23"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M29.999 0L29.0703 2.5H26.659L22.3165 17.5H5.76777L-0.000976562 3.75H21.014L20.309 6.25H3.75902L7.43027 15H20.4653L24.7553 0H29.999ZM10.624 18.75C9.58902 18.75 8.74902 19.59 8.74902 20.625C8.74902 21.6612 9.58902 22.5 10.624 22.5C11.659 22.5 12.499 21.6612 12.499 20.625C12.499 19.59 11.659 18.75 10.624 18.75ZM19.249 10L16.874 18.75C15.839 18.75 14.999 19.5888 14.999 20.625C14.999 21.6612 15.839 22.5 16.874 22.5C17.909 22.5 18.749 21.6612 18.749 20.625C18.749 19.59 17.909 18.75 16.874 18.75L19.249 10Z"
+                            fill="#fff"
+                          />
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="catalog-item">
+                      <a
+                        class=" catalog-item__like-link"
+                        href="#"
+                      >
+                        <svg
+                          class="catalog-item__like-img"
+                          width="24"
+                          height="22"
+                          viewBox="0 0 24 22"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z"
+                            fill="#333"
+                          />
+                        </svg>
+                      </a>
+                      <img
+                        class=" catalog-item__img"
+                        src="images/catalog-images/4.jpg"
+                        alt="image"
+                      />
+                      <span class="catalog-item__title">
+                        АМБРОГЕКСАЛ
+                      </span>
+                      <span class="catalog-item__text">
+                        (раствор для приема внутрь и ингаляций 7,5мг/мл фл. 50
+                      </span>
+                      <a
+                        class="catalog-item__link"
+                        href="card.html"
+                      >
+                        Посмотреть товар
+                      </a>
+                      <a class="catalog-item__basket" href="#">
+                        <span
+                          class="
+                            
+                            catalog-item__basket-text
+                          "
+                        >
+                          в корзину
+                        </span>
+                        <svg
+                          class="catalog-item__basket-img"
+                          width="30"
+                          height="23"
+                          viewBox="0 0 30 23"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M29.999 0L29.0703 2.5H26.659L22.3165 17.5H5.76777L-0.000976562 3.75H21.014L20.309 6.25H3.75902L7.43027 15H20.4653L24.7553 0H29.999ZM10.624 18.75C9.58902 18.75 8.74902 19.59 8.74902 20.625C8.74902 21.6612 9.58902 22.5 10.624 22.5C11.659 22.5 12.499 21.6612 12.499 20.625C12.499 19.59 11.659 18.75 10.624 18.75ZM19.249 10L16.874 18.75C15.839 18.75 14.999 19.5888 14.999 20.625C14.999 21.6612 15.839 22.5 16.874 22.5C17.909 22.5 18.749 21.6612 18.749 20.625C18.749 19.59 17.909 18.75 16.874 18.75L19.249 10Z"
+                            fill="#fff"
+                          />
+                        </svg>
+                      </a>
+                    </li>
+                  </div>
+                  <div
+                    class="
+                      catalog__tabs-content
+                    
+                    "
+                    id="korean"
+                  >
+                    
+                    
+                    
+                    <li class="catalog-item">
+                      <a
+                        class=" catalog-item__like-link"
+                        href="#"
+                      >
+                        <svg
+                          class="catalog-item__like-img"
+                          width="24"
+                          height="22"
+                          viewBox="0 0 24 22"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z"
+                            fill="#333"
+                          />
+                        </svg>
+                      </a>
+                      <img
+                        class=" catalog-item__img"
+                        src="images/catalog-images/4.jpg"
+                        alt="image"
+                      />
+                      <span class="catalog-item__title">
+                        АМБРОГЕКСАЛ
+                      </span>
+                      <span class="catalog-item__text">
+                        (раствор для приема внутрь и ингаляций 7,5мг/мл фл. 50
+                      </span>
+                      <a
+                        class="catalog-item__link"
+                        href="card.html"
+                      >
+                        Посмотреть товар
+                      </a>
+                      <a class="catalog-item__basket" href="#">
+                        <span
+                          class="
+                            
+                            catalog-item__basket-text
+                          "
+                        >
+                          в корзину
+                        </span>
+                        <svg
+                          class="catalog-item__basket-img"
+                          width="30"
+                          height="23"
+                          viewBox="0 0 30 23"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M29.999 0L29.0703 2.5H26.659L22.3165 17.5H5.76777L-0.000976562 3.75H21.014L20.309 6.25H3.75902L7.43027 15H20.4653L24.7553 0H29.999ZM10.624 18.75C9.58902 18.75 8.74902 19.59 8.74902 20.625C8.74902 21.6612 9.58902 22.5 10.624 22.5C11.659 22.5 12.499 21.6612 12.499 20.625C12.499 19.59 11.659 18.75 10.624 18.75ZM19.249 10L16.874 18.75C15.839 18.75 14.999 19.5888 14.999 20.625C14.999 21.6612 15.839 22.5 16.874 22.5C17.909 22.5 18.749 21.6612 18.749 20.625C18.749 19.59 17.909 18.75 16.874 18.75L19.249 10Z"
+                            fill="#fff"
+                          />
+                        </svg>
+                      </a>
+                    </li>
+                   
+                    <li class=" catalog-item">
+                      <a
+                        class="catalog-item__like-link"
+                        href="#"
+                      >
+                        <svg
+                          class="catalog-item__like-img"
+                          width="24"
+                          height="22"
+                          viewBox="0 0 24 22"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z"
+                            fill="#333"
+                          />
+                        </svg>
+                      </a>
+                      <img
+                        class=" catalog-item__img"
+                        src="images/catalog-images/2.jpg"
+                        alt="image"
+                      />
+                      <span class="catalog-item__title">
+                        БРОНХИПРЕТ
+                      </span>
+                      <span class="catalog-item__text">
+                        (сироп фл. 100 мл №1) Bionorica SE-Германия
+                      </span>
+                      <a
+                        class=" catalog-item__link"
+                        href="card.html"
+                      >
+                        Посмотреть товар
+                      </a>
+                      <a class="catalog-item__basket" href="#">
+                        <span
+                          class="
+                            
+                            catalog-item__basket-text
+                          "
+                        >
+                          в корзину
+                        </span>
+                        <svg
+                          class="catalog-item__basket-img"
+                          width="30"
+                          height="23"
+                          viewBox="0 0 30 23"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M29.999 0L29.0703 2.5H26.659L22.3165 17.5H5.76777L-0.000976562 3.75H21.014L20.309 6.25H3.75902L7.43027 15H20.4653L24.7553 0H29.999ZM10.624 18.75C9.58902 18.75 8.74902 19.59 8.74902 20.625C8.74902 21.6612 9.58902 22.5 10.624 22.5C11.659 22.5 12.499 21.6612 12.499 20.625C12.499 19.59 11.659 18.75 10.624 18.75ZM19.249 10L16.874 18.75C15.839 18.75 14.999 19.5888 14.999 20.625C14.999 21.6612 15.839 22.5 16.874 22.5C17.909 22.5 18.749 21.6612 18.749 20.625C18.749 19.59 17.909 18.75 16.874 18.75L19.249 10Z"
+                            fill="#fff"
+                          />
+                        </svg>
+                      </a>
+                    </li>
+                    <li class=" catalog-item">
+                      <a
+                        class="catalog-item__like-link"
+                        href="#"
+                      >
+                        <svg
+                          class="catalog-item__like-img"
+                          width="24"
+                          height="22"
+                          viewBox="0 0 24 22"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z"
+                            fill="#333"
+                          />
+                        </svg>
+                      </a>
+                      <img
+                        class="catalog-item__img"
+                        src="images/catalog-images/3.jpg"
+                        alt="image"
+                      />
+                      <span class="catalog-item__title">
+                        ФЛЮДИТЕК
+                      </span>
+                      <span class="catalog-item__text">
+                        (сироп для детей 20 мг) Laboratoire Innotech
+                      </span>
+                      <a
+                        class="catalog-item__link"
+                        href="card.html"
+                      >
+                        Посмотреть товар
+                      </a>
+                      <a class="catalog-item__basket" href="#">
+                        <span
+                          class="
+                            
+                            catalog-item__basket-text
+                          "
+                        >
+                          в корзину
+                        </span>
+                        <svg
+                          class="catalog-item__basket-img"
+                          width="30"
+                          height="23"
+                          viewBox="0 0 30 23"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M29.999 0L29.0703 2.5H26.659L22.3165 17.5H5.76777L-0.000976562 3.75H21.014L20.309 6.25H3.75902L7.43027 15H20.4653L24.7553 0H29.999ZM10.624 18.75C9.58902 18.75 8.74902 19.59 8.74902 20.625C8.74902 21.6612 9.58902 22.5 10.624 22.5C11.659 22.5 12.499 21.6612 12.499 20.625C12.499 19.59 11.659 18.75 10.624 18.75ZM19.249 10L16.874 18.75C15.839 18.75 14.999 19.5888 14.999 20.625C14.999 21.6612 15.839 22.5 16.874 22.5C17.909 22.5 18.749 21.6612 18.749 20.625C18.749 19.59 17.909 18.75 16.874 18.75L19.249 10Z"
+                            fill="#fff"
+                          />
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="catalog-item">
+                      <a
+                        class=" catalog-item__like-link"
+                        href="#"
+                      >
+                        <svg
+                          class="catalog-item__like-img"
+                          width="24"
+                          height="22"
+                          viewBox="0 0 24 22"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z"
+                            fill="#333"
+                          />
+                        </svg>
+                      </a>
+                      <img
+                        class=" catalog-item__img"
+                        src="images/catalog-images/4.jpg"
+                        alt="image"
+                      />
+                      <span class="catalog-item__title">
+                        АМБРОГЕКСАЛ
+                      </span>
+                      <span class="catalog-item__text">
+                        (раствор для приема внутрь и ингаляций 7,5мг/мл фл. 50
+                      </span>
+                      <a
+                        class="catalog-item__link"
+                        href="card.html"
+                      >
+                        Посмотреть товар
+                      </a>
+                      <a class="catalog-item__basket" href="#">
+                        <span
+                          class="
+                            
+                            catalog-item__basket-text
+                          "
+                        >
+                          в корзину
+                        </span>
+                        <svg
+                          class="catalog-item__basket-img"
+                          width="30"
+                          height="23"
+                          viewBox="0 0 30 23"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M29.999 0L29.0703 2.5H26.659L22.3165 17.5H5.76777L-0.000976562 3.75H21.014L20.309 6.25H3.75902L7.43027 15H20.4653L24.7553 0H29.999ZM10.624 18.75C9.58902 18.75 8.74902 19.59 8.74902 20.625C8.74902 21.6612 9.58902 22.5 10.624 22.5C11.659 22.5 12.499 21.6612 12.499 20.625C12.499 19.59 11.659 18.75 10.624 18.75ZM19.249 10L16.874 18.75C15.839 18.75 14.999 19.5888 14.999 20.625C14.999 21.6612 15.839 22.5 16.874 22.5C17.909 22.5 18.749 21.6612 18.749 20.625C18.749 19.59 17.909 18.75 16.874 18.75L19.249 10Z"
+                            fill="#fff"
+                          />
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="catalog-item">
+                      <a class="catalog-item__like-link" href="#">
+                        <svg
+                          class="catalog-item__like-img"
+                          width="24"
+                          height="22"
+                          viewBox="0 0 24 22"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z"
+                            fill="#333"
+                          />
+                        </svg>
+                      </a>
+                      <img
+                        class="catalog-item__img"
+                        src="images/catalog-images/1.jpg"
+                        alt="image"
+                      />
+                      <span class="catalog-item__title"> Доктор мом </span>
+                      <span class="catalog-item__text">
+                        растительные пастилки от кашля
+                      </span>
+                      <a class="catalog-item__link" href="card.html">
+                        Посмотреть товар
+                      </a>
+                      <a class="catalog-item__basket" href="#">
+                        <span
+                          class="
+                            new__item-basket__text
+                            catalog-item__basket-text
+                          "
+                        >
+                          в корзину
+                        </span>
+                        <svg
+                          class="catalog-item__basket-img"
+                          width="30"
+                          height="23"
+                          viewBox="0 0 30 23"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M29.999 0L29.0703 2.5H26.659L22.3165 17.5H5.76777L-0.000976562 3.75H21.014L20.309 6.25H3.75902L7.43027 15H20.4653L24.7553 0H29.999ZM10.624 18.75C9.58902 18.75 8.74902 19.59 8.74902 20.625C8.74902 21.6612 9.58902 22.5 10.624 22.5C11.659 22.5 12.499 21.6612 12.499 20.625C12.499 19.59 11.659 18.75 10.624 18.75ZM19.249 10L16.874 18.75C15.839 18.75 14.999 19.5888 14.999 20.625C14.999 21.6612 15.839 22.5 16.874 22.5C17.909 22.5 18.749 21.6612 18.749 20.625C18.749 19.59 17.909 18.75 16.874 18.75L19.249 10Z"
+                            fill="#fff"
+                          />
+                        </svg>
+                      </a>
+                    </li>
+                    <li class=" catalog-item">
+                      <a
+                        class="catalog-item__like-link"
+                        href="#"
+                      >
+                        <svg
+                          class="catalog-item__like-img"
+                          width="24"
+                          height="22"
+                          viewBox="0 0 24 22"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z"
+                            fill="#333"
+                          />
+                        </svg>
+                      </a>
+                      <img
+                        class=" catalog-item__img"
+                        src="images/catalog-images/2.jpg"
+                        alt="image"
+                      />
+                      <span class="catalog-item__title">
+                        БРОНХИПРЕТ
+                      </span>
+                      <span class="catalog-item__text">
+                        (сироп фл. 100 мл №1) Bionorica SE-Германия
+                      </span>
+                      <a
+                        class=" catalog-item__link"
+                        href="card.html"
+                      >
+                        Посмотреть товар
+                      </a>
+                      <a class="catalog-item__basket" href="#">
+                        <span
+                          class="
+                            
+                            catalog-item__basket-text
+                          "
+                        >
+                          в корзину
+                        </span>
+                        <svg
+                          class="catalog-item__basket-img"
+                          width="30"
+                          height="23"
+                          viewBox="0 0 30 23"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M29.999 0L29.0703 2.5H26.659L22.3165 17.5H5.76777L-0.000976562 3.75H21.014L20.309 6.25H3.75902L7.43027 15H20.4653L24.7553 0H29.999ZM10.624 18.75C9.58902 18.75 8.74902 19.59 8.74902 20.625C8.74902 21.6612 9.58902 22.5 10.624 22.5C11.659 22.5 12.499 21.6612 12.499 20.625C12.499 19.59 11.659 18.75 10.624 18.75ZM19.249 10L16.874 18.75C15.839 18.75 14.999 19.5888 14.999 20.625C14.999 21.6612 15.839 22.5 16.874 22.5C17.909 22.5 18.749 21.6612 18.749 20.625C18.749 19.59 17.909 18.75 16.874 18.75L19.249 10Z"
+                            fill="#fff"
+                          />
+                        </svg>
+                      </a>
+                    </li>
+                    <li class=" catalog-item">
+                      <a
+                        class="catalog-item__like-link"
+                        href="#"
+                      >
+                        <svg
+                          class="catalog-item__like-img"
+                          width="24"
+                          height="22"
+                          viewBox="0 0 24 22"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z"
+                            fill="#333"
+                          />
+                        </svg>
+                      </a>
+                      <img
+                        class="catalog-item__img"
+                        src="images/catalog-images/3.jpg"
+                        alt="image"
+                      />
+                      <span class="catalog-item__title">
+                        ФЛЮДИТЕК
+                      </span>
+                      <span class="catalog-item__text">
+                        (сироп для детей 20 мг) Laboratoire Innotech
+                      </span>
+                      <a
+                        class="catalog-item__link"
+                        href="card.html"
+                      >
+                        Посмотреть товар
+                      </a>
+                      <a class="catalog-item__basket" href="#">
+                        <span
+                          class="
+                            
+                            catalog-item__basket-text
+                          "
+                        >
+                          в корзину
+                        </span>
+                        <svg
+                          class="catalog-item__basket-img"
+                          width="30"
+                          height="23"
+                          viewBox="0 0 30 23"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M29.999 0L29.0703 2.5H26.659L22.3165 17.5H5.76777L-0.000976562 3.75H21.014L20.309 6.25H3.75902L7.43027 15H20.4653L24.7553 0H29.999ZM10.624 18.75C9.58902 18.75 8.74902 19.59 8.74902 20.625C8.74902 21.6612 9.58902 22.5 10.624 22.5C11.659 22.5 12.499 21.6612 12.499 20.625C12.499 19.59 11.659 18.75 10.624 18.75ZM19.249 10L16.874 18.75C15.839 18.75 14.999 19.5888 14.999 20.625C14.999 21.6612 15.839 22.5 16.874 22.5C17.909 22.5 18.749 21.6612 18.749 20.625C18.749 19.59 17.909 18.75 16.874 18.75L19.249 10Z"
+                            fill="#fff"
+                          />
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="catalog-item">
+                      <a
+                        class=" catalog-item__like-link"
+                        href="#"
+                      >
+                        <svg
+                          class="catalog-item__like-img"
+                          width="24"
+                          height="22"
+                          viewBox="0 0 24 22"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z"
+                            fill="#333"
+                          />
+                        </svg>
+                      </a>
+                      <img
+                        class=" catalog-item__img"
+                        src="images/catalog-images/4.jpg"
+                        alt="image"
+                      />
+                      <span class="catalog-item__title">
+                        АМБРОГЕКСАЛ
+                      </span>
+                      <span class="catalog-item__text">
+                        (раствор для приема внутрь и ингаляций 7,5мг/мл фл. 50
+                      </span>
+                      <a
+                        class="catalog-item__link"
+                        href="card.html"
+                      >
+                        Посмотреть товар
+                      </a>
+                      <a class="catalog-item__basket" href="#">
+                        <span
+                          class="
+                            
+                            catalog-item__basket-text
+                          "
+                        >
+                          в корзину
+                        </span>
+                        <svg
+                          class="catalog-item__basket-img"
+                          width="30"
+                          height="23"
+                          viewBox="0 0 30 23"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M29.999 0L29.0703 2.5H26.659L22.3165 17.5H5.76777L-0.000976562 3.75H21.014L20.309 6.25H3.75902L7.43027 15H20.4653L24.7553 0H29.999ZM10.624 18.75C9.58902 18.75 8.74902 19.59 8.74902 20.625C8.74902 21.6612 9.58902 22.5 10.624 22.5C11.659 22.5 12.499 21.6612 12.499 20.625C12.499 19.59 11.659 18.75 10.624 18.75ZM19.249 10L16.874 18.75C15.839 18.75 14.999 19.5888 14.999 20.625C14.999 21.6612 15.839 22.5 16.874 22.5C17.909 22.5 18.749 21.6612 18.749 20.625C18.749 19.59 17.909 18.75 16.874 18.75L19.249 10Z"
+                            fill="#fff"
+                          />
+                        </svg>
+                      </a>
+                    </li>
+                  </div>
+                  <div
+                    class="
+                      catalog__tabs-content
+                    
+                    "
+                    id="medications"
+                  >
+                   
+                    <li class=" catalog-item">
+                      <a
+                        class="catalog-item__like-link"
+                        href="#"
+                      >
+                        <svg
+                          class="catalog-item__like-img"
+                          width="24"
+                          height="22"
+                          viewBox="0 0 24 22"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z"
+                            fill="#333"
+                          />
+                        </svg>
+                      </a>
+                      <img
+                        class=" catalog-item__img"
+                        src="images/catalog-images/2.jpg"
+                        alt="image"
+                      />
+                      <span class="catalog-item__title">
+                        БРОНХИПРЕТ
+                      </span>
+                      <span class="catalog-item__text">
+                        (сироп фл. 100 мл №1) Bionorica SE-Германия
+                      </span>
+                      <a
+                        class=" catalog-item__link"
+                        href="card.html"
+                      >
+                        Посмотреть товар
+                      </a>
+                      <a class="catalog-item__basket" href="#">
+                        <span
+                          class="
+                            
+                            catalog-item__basket-text
+                          "
+                        >
+                          в корзину
+                        </span>
+                        <svg
+                          class="catalog-item__basket-img"
+                          width="30"
+                          height="23"
+                          viewBox="0 0 30 23"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M29.999 0L29.0703 2.5H26.659L22.3165 17.5H5.76777L-0.000976562 3.75H21.014L20.309 6.25H3.75902L7.43027 15H20.4653L24.7553 0H29.999ZM10.624 18.75C9.58902 18.75 8.74902 19.59 8.74902 20.625C8.74902 21.6612 9.58902 22.5 10.624 22.5C11.659 22.5 12.499 21.6612 12.499 20.625C12.499 19.59 11.659 18.75 10.624 18.75ZM19.249 10L16.874 18.75C15.839 18.75 14.999 19.5888 14.999 20.625C14.999 21.6612 15.839 22.5 16.874 22.5C17.909 22.5 18.749 21.6612 18.749 20.625C18.749 19.59 17.909 18.75 16.874 18.75L19.249 10Z"
+                            fill="#fff"
+                          />
+                        </svg>
+                      </a>
+                    </li>
+                    <li class=" catalog-item">
+                      <a
+                        class="catalog-item__like-link"
+                        href="#"
+                      >
+                        <svg
+                          class="catalog-item__like-img"
+                          width="24"
+                          height="22"
+                          viewBox="0 0 24 22"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z"
+                            fill="#333"
+                          />
+                        </svg>
+                      </a>
+                      <img
+                        class="catalog-item__img"
+                        src="images/catalog-images/3.jpg"
+                        alt="image"
+                      />
+                      <span class="catalog-item__title">
+                        ФЛЮДИТЕК
+                      </span>
+                      <span class="catalog-item__text">
+                        (сироп для детей 20 мг) Laboratoire Innotech
+                      </span>
+                      <a
+                        class="catalog-item__link"
+                        href="card.html"
+                      >
+                        Посмотреть товар
+                      </a>
+                      <a class="catalog-item__basket" href="#">
+                        <span
+                          class="
+                            
+                            catalog-item__basket-text
+                          "
+                        >
+                          в корзину
+                        </span>
+                        <svg
+                          class="catalog-item__basket-img"
+                          width="30"
+                          height="23"
+                          viewBox="0 0 30 23"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M29.999 0L29.0703 2.5H26.659L22.3165 17.5H5.76777L-0.000976562 3.75H21.014L20.309 6.25H3.75902L7.43027 15H20.4653L24.7553 0H29.999ZM10.624 18.75C9.58902 18.75 8.74902 19.59 8.74902 20.625C8.74902 21.6612 9.58902 22.5 10.624 22.5C11.659 22.5 12.499 21.6612 12.499 20.625C12.499 19.59 11.659 18.75 10.624 18.75ZM19.249 10L16.874 18.75C15.839 18.75 14.999 19.5888 14.999 20.625C14.999 21.6612 15.839 22.5 16.874 22.5C17.909 22.5 18.749 21.6612 18.749 20.625C18.749 19.59 17.909 18.75 16.874 18.75L19.249 10Z"
+                            fill="#fff"
+                          />
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="catalog-item">
+                      <a
+                        class=" catalog-item__like-link"
+                        href="#"
+                      >
+                        <svg
+                          class="catalog-item__like-img"
+                          width="24"
+                          height="22"
+                          viewBox="0 0 24 22"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z"
+                            fill="#333"
+                          />
+                        </svg>
+                      </a>
+                      <img
+                        class=" catalog-item__img"
+                        src="images/catalog-images/4.jpg"
+                        alt="image"
+                      />
+                      <span class="catalog-item__title">
+                        АМБРОГЕКСАЛ
+                      </span>
+                      <span class="catalog-item__text">
+                        (раствор для приема внутрь и ингаляций 7,5мг/мл фл. 50
+                      </span>
+                      <a
+                        class="catalog-item__link"
+                        href="card.html"
+                      >
+                        Посмотреть товар
+                      </a>
+                      <a class="catalog-item__basket" href="#">
+                        <span
+                          class="
+                            
+                            catalog-item__basket-text
+                          "
+                        >
+                          в корзину
+                        </span>
+                        <svg
+                          class="catalog-item__basket-img"
+                          width="30"
+                          height="23"
+                          viewBox="0 0 30 23"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M29.999 0L29.0703 2.5H26.659L22.3165 17.5H5.76777L-0.000976562 3.75H21.014L20.309 6.25H3.75902L7.43027 15H20.4653L24.7553 0H29.999ZM10.624 18.75C9.58902 18.75 8.74902 19.59 8.74902 20.625C8.74902 21.6612 9.58902 22.5 10.624 22.5C11.659 22.5 12.499 21.6612 12.499 20.625C12.499 19.59 11.659 18.75 10.624 18.75ZM19.249 10L16.874 18.75C15.839 18.75 14.999 19.5888 14.999 20.625C14.999 21.6612 15.839 22.5 16.874 22.5C17.909 22.5 18.749 21.6612 18.749 20.625C18.749 19.59 17.909 18.75 16.874 18.75L19.249 10Z"
+                            fill="#fff"
+                          />
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="catalog-item">
+                      <a class="catalog-item__like-link" href="#">
+                        <svg
+                          class="catalog-item__like-img"
+                          width="24"
+                          height="22"
+                          viewBox="0 0 24 22"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z"
+                            fill="#333"
+                          />
+                        </svg>
+                      </a>
+                      <img
+                        class="catalog-item__img"
+                        src="images/catalog-images/1.jpg"
+                        alt="image"
+                      />
+                      <span class="catalog-item__title"> Доктор мом </span>
+                      <span class="catalog-item__text">
+                        растительные пастилки от кашля
+                      </span>
+                      <a class="catalog-item__link" href="card.html">
+                        Посмотреть товар
+                      </a>
+                      <a class="catalog-item__basket" href="#">
+                        <span
+                          class="
+                            new__item-basket__text
+                            catalog-item__basket-text
+                          "
+                        >
+                          в корзину
+                        </span>
+                        <svg
+                          class="catalog-item__basket-img"
+                          width="30"
+                          height="23"
+                          viewBox="0 0 30 23"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M29.999 0L29.0703 2.5H26.659L22.3165 17.5H5.76777L-0.000976562 3.75H21.014L20.309 6.25H3.75902L7.43027 15H20.4653L24.7553 0H29.999ZM10.624 18.75C9.58902 18.75 8.74902 19.59 8.74902 20.625C8.74902 21.6612 9.58902 22.5 10.624 22.5C11.659 22.5 12.499 21.6612 12.499 20.625C12.499 19.59 11.659 18.75 10.624 18.75ZM19.249 10L16.874 18.75C15.839 18.75 14.999 19.5888 14.999 20.625C14.999 21.6612 15.839 22.5 16.874 22.5C17.909 22.5 18.749 21.6612 18.749 20.625C18.749 19.59 17.909 18.75 16.874 18.75L19.249 10Z"
+                            fill="#fff"
+                          />
+                        </svg>
+                      </a>
+                    </li>
+                    <li class=" catalog-item">
+                      <a
+                        class="catalog-item__like-link"
+                        href="#"
+                      >
+                        <svg
+                          class="catalog-item__like-img"
+                          width="24"
+                          height="22"
+                          viewBox="0 0 24 22"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z"
+                            fill="#333"
+                          />
+                        </svg>
+                      </a>
+                      <img
+                        class=" catalog-item__img"
+                        src="images/catalog-images/2.jpg"
+                        alt="image"
+                      />
+                      <span class="catalog-item__title">
+                        БРОНХИПРЕТ
+                      </span>
+                      <span class="catalog-item__text">
+                        (сироп фл. 100 мл №1) Bionorica SE-Германия
+                      </span>
+                      <a
+                        class=" catalog-item__link"
+                        href="card.html"
+                      >
+                        Посмотреть товар
+                      </a>
+                      <a class="catalog-item__basket" href="#">
+                        <span
+                          class="
+                            
+                            catalog-item__basket-text
+                          "
+                        >
+                          в корзину
+                        </span>
+                        <svg
+                          class="catalog-item__basket-img"
+                          width="30"
+                          height="23"
+                          viewBox="0 0 30 23"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M29.999 0L29.0703 2.5H26.659L22.3165 17.5H5.76777L-0.000976562 3.75H21.014L20.309 6.25H3.75902L7.43027 15H20.4653L24.7553 0H29.999ZM10.624 18.75C9.58902 18.75 8.74902 19.59 8.74902 20.625C8.74902 21.6612 9.58902 22.5 10.624 22.5C11.659 22.5 12.499 21.6612 12.499 20.625C12.499 19.59 11.659 18.75 10.624 18.75ZM19.249 10L16.874 18.75C15.839 18.75 14.999 19.5888 14.999 20.625C14.999 21.6612 15.839 22.5 16.874 22.5C17.909 22.5 18.749 21.6612 18.749 20.625C18.749 19.59 17.909 18.75 16.874 18.75L19.249 10Z"
+                            fill="#fff"
+                          />
+                        </svg>
+                      </a>
+                    </li>
+                    <li class=" catalog-item">
+                      <a
+                        class="catalog-item__like-link"
+                        href="#"
+                      >
+                        <svg
+                          class="catalog-item__like-img"
+                          width="24"
+                          height="22"
+                          viewBox="0 0 24 22"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z"
+                            fill="#333"
+                          />
+                        </svg>
+                      </a>
+                      <img
+                        class="catalog-item__img"
+                        src="images/catalog-images/3.jpg"
+                        alt="image"
+                      />
+                      <span class="catalog-item__title">
+                        ФЛЮДИТЕК
+                      </span>
+                      <span class="catalog-item__text">
+                        (сироп для детей 20 мг) Laboratoire Innotech
+                      </span>
+                      <a
+                        class="catalog-item__link"
+                        href="card.html"
+                      >
+                        Посмотреть товар
+                      </a>
+                      <a class="catalog-item__basket" href="#">
+                        <span
+                          class="
+                            
+                            catalog-item__basket-text
+                          "
+                        >
+                          в корзину
+                        </span>
+                        <svg
+                          class="catalog-item__basket-img"
+                          width="30"
+                          height="23"
+                          viewBox="0 0 30 23"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M29.999 0L29.0703 2.5H26.659L22.3165 17.5H5.76777L-0.000976562 3.75H21.014L20.309 6.25H3.75902L7.43027 15H20.4653L24.7553 0H29.999ZM10.624 18.75C9.58902 18.75 8.74902 19.59 8.74902 20.625C8.74902 21.6612 9.58902 22.5 10.624 22.5C11.659 22.5 12.499 21.6612 12.499 20.625C12.499 19.59 11.659 18.75 10.624 18.75ZM19.249 10L16.874 18.75C15.839 18.75 14.999 19.5888 14.999 20.625C14.999 21.6612 15.839 22.5 16.874 22.5C17.909 22.5 18.749 21.6612 18.749 20.625C18.749 19.59 17.909 18.75 16.874 18.75L19.249 10Z"
+                            fill="#fff"
+                          />
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="catalog-item">
+                      <a
+                        class=" catalog-item__like-link"
+                        href="#"
+                      >
+                        <svg
+                          class="catalog-item__like-img"
+                          width="24"
+                          height="22"
+                          viewBox="0 0 24 22"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z"
+                            fill="#333"
+                          />
+                        </svg>
+                      </a>
+                      <img
+                        class=" catalog-item__img"
+                        src="images/catalog-images/4.jpg"
+                        alt="image"
+                      />
+                      <span class="catalog-item__title">
+                        АМБРОГЕКСАЛ
+                      </span>
+                      <span class="catalog-item__text">
+                        (раствор для приема внутрь и ингаляций 7,5мг/мл фл. 50
+                      </span>
+                      <a
+                        class="catalog-item__link"
+                        href="card.html"
+                      >
+                        Посмотреть товар
+                      </a>
+                      <a class="catalog-item__basket" href="#">
+                        <span
+                          class="
+                            
+                            catalog-item__basket-text
+                          "
+                        >
+                          в корзину
+                        </span>
+                        <svg
+                          class="catalog-item__basket-img"
+                          width="30"
+                          height="23"
+                          viewBox="0 0 30 23"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M29.999 0L29.0703 2.5H26.659L22.3165 17.5H5.76777L-0.000976562 3.75H21.014L20.309 6.25H3.75902L7.43027 15H20.4653L24.7553 0H29.999ZM10.624 18.75C9.58902 18.75 8.74902 19.59 8.74902 20.625C8.74902 21.6612 9.58902 22.5 10.624 22.5C11.659 22.5 12.499 21.6612 12.499 20.625C12.499 19.59 11.659 18.75 10.624 18.75ZM19.249 10L16.874 18.75C15.839 18.75 14.999 19.5888 14.999 20.625C14.999 21.6612 15.839 22.5 16.874 22.5C17.909 22.5 18.749 21.6612 18.749 20.625C18.749 19.59 17.909 18.75 16.874 18.75L19.249 10Z"
+                            fill="#fff"
+                          />
+                        </svg>
+                      </a>
+                    </li>
+                  </div>
+                  <div
+                    class="
+                      catalog__tabs-content
+                    
+                    "
+                    id="optics"
+                  >
+                    <li class=" catalog-item">
+                      <a
+                        class="catalog-item__like-link"
+                        href="#"
+                      >
+                        <svg
+                          class="catalog-item__like-img"
+                          width="24"
+                          height="22"
+                          viewBox="0 0 24 22"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z"
+                            fill="#333"
+                          />
+                        </svg>
+                      </a>
+                      <img
+                        class="catalog-item__img"
+                        src="images/catalog-images/3.jpg"
+                        alt="image"
+                      />
+                      <span class="catalog-item__title">
+                        ФЛЮДИТЕК
+                      </span>
+                      <span class="catalog-item__text">
+                        (сироп для детей 20 мг) Laboratoire Innotech
+                      </span>
+                      <a
+                        class="catalog-item__link"
+                        href="card.html"
+                      >
+                        Посмотреть товар
+                      </a>
+                      <a class="catalog-item__basket" href="#">
+                        <span
+                          class="
+                            
+                            catalog-item__basket-text
+                          "
+                        >
+                          в корзину
+                        </span>
+                        <svg
+                          class="catalog-item__basket-img"
+                          width="30"
+                          height="23"
+                          viewBox="0 0 30 23"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M29.999 0L29.0703 2.5H26.659L22.3165 17.5H5.76777L-0.000976562 3.75H21.014L20.309 6.25H3.75902L7.43027 15H20.4653L24.7553 0H29.999ZM10.624 18.75C9.58902 18.75 8.74902 19.59 8.74902 20.625C8.74902 21.6612 9.58902 22.5 10.624 22.5C11.659 22.5 12.499 21.6612 12.499 20.625C12.499 19.59 11.659 18.75 10.624 18.75ZM19.249 10L16.874 18.75C15.839 18.75 14.999 19.5888 14.999 20.625C14.999 21.6612 15.839 22.5 16.874 22.5C17.909 22.5 18.749 21.6612 18.749 20.625C18.749 19.59 17.909 18.75 16.874 18.75L19.249 10Z"
+                            fill="#fff"
+                          />
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="catalog-item">
+                      <a
+                        class=" catalog-item__like-link"
+                        href="#"
+                      >
+                        <svg
+                          class="catalog-item__like-img"
+                          width="24"
+                          height="22"
+                          viewBox="0 0 24 22"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z"
+                            fill="#333"
+                          />
+                        </svg>
+                      </a>
+                      <img
+                        class=" catalog-item__img"
+                        src="images/catalog-images/4.jpg"
+                        alt="image"
+                      />
+                      <span class="catalog-item__title">
+                        АМБРОГЕКСАЛ
+                      </span>
+                      <span class="catalog-item__text">
+                        (раствор для приема внутрь и ингаляций 7,5мг/мл фл. 50
+                      </span>
+                      <a
+                        class="catalog-item__link"
+                        href="card.html"
+                      >
+                        Посмотреть товар
+                      </a>
+                      <a class="catalog-item__basket" href="#">
+                        <span
+                          class="
+                            
+                            catalog-item__basket-text
+                          "
+                        >
+                          в корзину
+                        </span>
+                        <svg
+                          class="catalog-item__basket-img"
+                          width="30"
+                          height="23"
+                          viewBox="0 0 30 23"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M29.999 0L29.0703 2.5H26.659L22.3165 17.5H5.76777L-0.000976562 3.75H21.014L20.309 6.25H3.75902L7.43027 15H20.4653L24.7553 0H29.999ZM10.624 18.75C9.58902 18.75 8.74902 19.59 8.74902 20.625C8.74902 21.6612 9.58902 22.5 10.624 22.5C11.659 22.5 12.499 21.6612 12.499 20.625C12.499 19.59 11.659 18.75 10.624 18.75ZM19.249 10L16.874 18.75C15.839 18.75 14.999 19.5888 14.999 20.625C14.999 21.6612 15.839 22.5 16.874 22.5C17.909 22.5 18.749 21.6612 18.749 20.625C18.749 19.59 17.909 18.75 16.874 18.75L19.249 10Z"
+                            fill="#fff"
+                          />
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="catalog-item">
+                      <a class="catalog-item__like-link" href="#">
+                        <svg
+                          class="catalog-item__like-img"
+                          width="24"
+                          height="22"
+                          viewBox="0 0 24 22"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z"
+                            fill="#333"
+                          />
+                        </svg>
+                      </a>
+                      <img
+                        class="catalog-item__img"
+                        src="images/catalog-images/1.jpg"
+                        alt="image"
+                      />
+                      <span class="catalog-item__title"> Доктор мом </span>
+                      <span class="catalog-item__text">
+                        растительные пастилки от кашля
+                      </span>
+                      <a class="catalog-item__link" href="card.html">
+                        Посмотреть товар
+                      </a>
+                      <a class="catalog-item__basket" href="#">
+                        <span
+                          class="
+                            new__item-basket__text
+                            catalog-item__basket-text
+                          "
+                        >
+                          в корзину
+                        </span>
+                        <svg
+                          class="catalog-item__basket-img"
+                          width="30"
+                          height="23"
+                          viewBox="0 0 30 23"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M29.999 0L29.0703 2.5H26.659L22.3165 17.5H5.76777L-0.000976562 3.75H21.014L20.309 6.25H3.75902L7.43027 15H20.4653L24.7553 0H29.999ZM10.624 18.75C9.58902 18.75 8.74902 19.59 8.74902 20.625C8.74902 21.6612 9.58902 22.5 10.624 22.5C11.659 22.5 12.499 21.6612 12.499 20.625C12.499 19.59 11.659 18.75 10.624 18.75ZM19.249 10L16.874 18.75C15.839 18.75 14.999 19.5888 14.999 20.625C14.999 21.6612 15.839 22.5 16.874 22.5C17.909 22.5 18.749 21.6612 18.749 20.625C18.749 19.59 17.909 18.75 16.874 18.75L19.249 10Z"
+                            fill="#fff"
+                          />
+                        </svg>
+                      </a>
+                    </li>
+                    <li class=" catalog-item">
+                      <a
+                        class="catalog-item__like-link"
+                        href="#"
+                      >
+                        <svg
+                          class="catalog-item__like-img"
+                          width="24"
+                          height="22"
+                          viewBox="0 0 24 22"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z"
+                            fill="#333"
+                          />
+                        </svg>
+                      </a>
+                      <img
+                        class=" catalog-item__img"
+                        src="images/catalog-images/2.jpg"
+                        alt="image"
+                      />
+                      <span class="catalog-item__title">
+                        БРОНХИПРЕТ
+                      </span>
+                      <span class="catalog-item__text">
+                        (сироп фл. 100 мл №1) Bionorica SE-Германия
+                      </span>
+                      <a
+                        class=" catalog-item__link"
+                        href="card.html"
+                      >
+                        Посмотреть товар
+                      </a>
+                      <a class="catalog-item__basket" href="#">
+                        <span
+                          class="
+                            
+                            catalog-item__basket-text
+                          "
+                        >
+                          в корзину
+                        </span>
+                        <svg
+                          class="catalog-item__basket-img"
+                          width="30"
+                          height="23"
+                          viewBox="0 0 30 23"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M29.999 0L29.0703 2.5H26.659L22.3165 17.5H5.76777L-0.000976562 3.75H21.014L20.309 6.25H3.75902L7.43027 15H20.4653L24.7553 0H29.999ZM10.624 18.75C9.58902 18.75 8.74902 19.59 8.74902 20.625C8.74902 21.6612 9.58902 22.5 10.624 22.5C11.659 22.5 12.499 21.6612 12.499 20.625C12.499 19.59 11.659 18.75 10.624 18.75ZM19.249 10L16.874 18.75C15.839 18.75 14.999 19.5888 14.999 20.625C14.999 21.6612 15.839 22.5 16.874 22.5C17.909 22.5 18.749 21.6612 18.749 20.625C18.749 19.59 17.909 18.75 16.874 18.75L19.249 10Z"
+                            fill="#fff"
+                          />
+                        </svg>
+                      </a>
+                    </li>
+                    <li class=" catalog-item">
+                      <a
+                        class="catalog-item__like-link"
+                        href="#"
+                      >
+                        <svg
+                          class="catalog-item__like-img"
+                          width="24"
+                          height="22"
+                          viewBox="0 0 24 22"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z"
+                            fill="#333"
+                          />
+                        </svg>
+                      </a>
+                      <img
+                        class="catalog-item__img"
+                        src="images/catalog-images/3.jpg"
+                        alt="image"
+                      />
+                      <span class="catalog-item__title">
+                        ФЛЮДИТЕК
+                      </span>
+                      <span class="catalog-item__text">
+                        (сироп для детей 20 мг) Laboratoire Innotech
+                      </span>
+                      <a
+                        class="catalog-item__link"
+                        href="card.html"
+                      >
+                        Посмотреть товар
+                      </a>
+                      <a class="catalog-item__basket" href="#">
+                        <span
+                          class="
+                            
+                            catalog-item__basket-text
+                          "
+                        >
+                          в корзину
+                        </span>
+                        <svg
+                          class="catalog-item__basket-img"
+                          width="30"
+                          height="23"
+                          viewBox="0 0 30 23"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M29.999 0L29.0703 2.5H26.659L22.3165 17.5H5.76777L-0.000976562 3.75H21.014L20.309 6.25H3.75902L7.43027 15H20.4653L24.7553 0H29.999ZM10.624 18.75C9.58902 18.75 8.74902 19.59 8.74902 20.625C8.74902 21.6612 9.58902 22.5 10.624 22.5C11.659 22.5 12.499 21.6612 12.499 20.625C12.499 19.59 11.659 18.75 10.624 18.75ZM19.249 10L16.874 18.75C15.839 18.75 14.999 19.5888 14.999 20.625C14.999 21.6612 15.839 22.5 16.874 22.5C17.909 22.5 18.749 21.6612 18.749 20.625C18.749 19.59 17.909 18.75 16.874 18.75L19.249 10Z"
+                            fill="#fff"
+                          />
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="catalog-item">
+                      <a
+                        class=" catalog-item__like-link"
+                        href="#"
+                      >
+                        <svg
+                          class="catalog-item__like-img"
+                          width="24"
+                          height="22"
+                          viewBox="0 0 24 22"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z"
+                            fill="#333"
+                          />
+                        </svg>
+                      </a>
+                      <img
+                        class=" catalog-item__img"
+                        src="images/catalog-images/4.jpg"
+                        alt="image"
+                      />
+                      <span class="catalog-item__title">
+                        АМБРОГЕКСАЛ
+                      </span>
+                      <span class="catalog-item__text">
+                        (раствор для приема внутрь и ингаляций 7,5мг/мл фл. 50
+                      </span>
+                      <a
+                        class="catalog-item__link"
+                        href="card.html"
+                      >
+                        Посмотреть товар
+                      </a>
+                      <a class="catalog-item__basket" href="#">
+                        <span
+                          class="
+                            
+                            catalog-item__basket-text
+                          "
+                        >
+                          в корзину
+                        </span>
+                        <svg
+                          class="catalog-item__basket-img"
+                          width="30"
+                          height="23"
+                          viewBox="0 0 30 23"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M29.999 0L29.0703 2.5H26.659L22.3165 17.5H5.76777L-0.000976562 3.75H21.014L20.309 6.25H3.75902L7.43027 15H20.4653L24.7553 0H29.999ZM10.624 18.75C9.58902 18.75 8.74902 19.59 8.74902 20.625C8.74902 21.6612 9.58902 22.5 10.624 22.5C11.659 22.5 12.499 21.6612 12.499 20.625C12.499 19.59 11.659 18.75 10.624 18.75ZM19.249 10L16.874 18.75C15.839 18.75 14.999 19.5888 14.999 20.625C14.999 21.6612 15.839 22.5 16.874 22.5C17.909 22.5 18.749 21.6612 18.749 20.625C18.749 19.59 17.909 18.75 16.874 18.75L19.249 10Z"
+                            fill="#fff"
+                          />
+                        </svg>
+                      </a>
+                    </li>
+                  </div>
+
+                  <ul class="catalog__pagination-list">
+                    <li class="catalog__pagination-item">
+                      <a class="catalog__pagination-item__link catalog__pagination-item__link--active" href="#" >
+                        1
+                      </a>
+                    </li>
+                    <li class="catalog__pagination-item">
+                      <a class="catalog__pagination-item__link" href="#" >
+                        2
+                      </a>
+                    </li>
+                    <li class="catalog__pagination-item">
+                      <a class="catalog__pagination-item__link" href="#" >
+                        3
+                      </a>
+                    </li>
+                    <li class="catalog__pagination-item">
+                      <a class="catalog__pagination-item__link" href="#" >
+                        ...
+                      </a>
+                    </li>
+                    <li class="catalog__pagination-item">
+                      <a class="catalog__pagination-item__link" href="#" >
+                        10
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__inner">
+            <div class="footer__left">
+              <a class="logo-link" href="index.html">
+                <img class="logo-img" src="images/logo.svg" alt="logo" />
+              </a>
+              <p class="footer__copy">© 2021 pharmacy.ru</p>
+            </div>
+
+            <div class="footer__lists-box">
+              <ul class="footer__list">
+                <li class="footer__item">
+                  <a class="footer__item-link" href="#"> Реклама </a>
+                </li>
+                <li class="footer__item">
+                  <a class="footer__item-link" href="#">
+                    Информация для аптек
+                  </a>
+                </li>
+                <li class="footer__item">
+                  <a class="footer__item-link" href="#"> Контакты </a>
+                </li>
+              </ul>
+              <ul class="footer__list">
+                <li class="footer__item">
+                  <a class="footer__item-link" href="#"> Помощь </a>
+                </li>
+                <li class="footer__item">
+                  <a class="footer__item-link" href="#">
+                    Пользовательское соглашение
+                  </a>
+                </li>
+                <li class="footer__item">
+                  <a class="footer__item-link" href="#"> Версия для печати </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <div class="authorization-popup">
+        <div class="authorization-popup__wrapper">
+          <div class="authorization-popup__body">
+            <div class="authorization-popup__top">
+              <h3 class="authorization-popup__title">Вход в аккаунт</h3>
+              <a class="authorization-popup__close" href="#">
+                <img
+                  class="authorization-popup__close-img"
+                  src="images/icons/cross-black.svg"
+                  alt="close"
+                />
+              </a>
+            </div>
+            <form class="authorization-popup__form">
+              <label class="authorization-popup__label">
+                <span class="authorization-popup__label-text">
+                  Электронная почта
+                </span>
+                <input class="authorization-popup__input" type="text" />
+              </label>
+              <label class="authorization-popup__label">
+                <span class="authorization-popup__label-text"> Пароль </span>
+                <input class="authorization-popup__input" type="text" />
+              </label>
+              <button
+                class="authorization-popup__btn authorization-popup__enter-btn"
+                type="submit"
+              >
+                Войти
+              </button>
+              <a
+                class="authorization-popup__btn authorization-popup__reg-btn"
+                href="#"
+              >
+                Регистрация
+              </a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/main.min.js"></script>
+  </body>
+</html>
